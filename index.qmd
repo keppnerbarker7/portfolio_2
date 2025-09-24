@@ -4,14 +4,14 @@ title: "Welcome to My Product Management Portfolio"
 
 ::: {.hero-banner .text-center}
 
-<img src="images/profile.jpg" alt="add photo to /images" class="rounded-circle mb-3" width="160">
+<img src="images/India_2025-28.png" alt="add photo to /images" class="rounded-circle mb-3" width="160">
 
 <h1>Keppner Barker</h1>
 
-<a href="https://linkedin.com/in/your-profile" class="btn btn-outline-primary btn-sm" target="_blank">
+<a href="https://linkedin.com/in/keppnerbarker" class="btn btn-outline-primary btn-sm" target="_blank">
   <i class="fab fa-linkedin"></i> LinkedIn
 </a>
-<a href="https://github.com/your-username" class="btn btn-outline-primary btn-sm" target="_blank">
+<a href="https://github.com/keppnerbarker7" class="btn btn-outline-primary btn-sm" target="_blank">
   <i class="fab fa-github"></i> GitHub
 </a>
 
@@ -21,8 +21,8 @@ title: "Welcome to My Product Management Portfolio"
 
 ::: {.g-col-12 .g-col-md-6 .card}
 
-### [Name of my first app](projects/project-1.qmd)
-A one sentence description of my first application which is deployed to vercel. 
+### [DormChef](projects/project-1.qmd)
+DormChef is a simple, social meal-planning app that helps college students cook affordable, healthy meals in tiny kitchens by sharing and organizing recipes with friends.  
 
 :::
 

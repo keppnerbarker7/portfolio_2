@@ -4,7 +4,7 @@ title: "About Me"
 
 ::: {.hero-banner .text-center}
 
-<img src="images/profile.jpg" alt="add photo to /images" class="rounded-circle mb-3" width="160">
+<img src="images/India_2025-28.png" alt="add photo to /images" class="rounded-circle mb-3" width="160">
 
 <h1>Your Name</h1>
 
