@@ -1,24 +1,26 @@
 ---
-title: "Name of the application I have published for Homework 1"
+title: "DormChef"
 date: "2024-09-15"
 categories: [GitHub, Vercel, Claude Code]
 ---
 
 ## Overview
 
-This project involved using Claude Code to write the code to needed to deveop an app that ...
+DormChef is a simple, social meal-planning app designed specifically for college students living in dorms with limited kitchen space. The app helps students discover, share, and organize recipes that work with minimal equipment and tight budgets.
 
 The primary purpose of this app is to:
 
-- ....
-- ....
+- Help college students cook affordable, healthy meals in tiny dorm kitchens
+- Create a social platform for sharing and discovering student-friendly recipes
+- Organize meal planning around limited cooking equipment and storage
+- Build a community of students supporting each other's cooking journey
 
 ## Live Product Demo
 
 <div class="d-flex justify-content-center gap-3 my-4">
   <!-- Open App button -->
   <a class="btn btn-primary d-inline-flex align-items-center"
-     href="https://tetris-game-egc6.vercel.app/"
+     href="https://dormchef-b-ox99.vercel.app/"
      target="_blank" rel="noopener"
      aria-label="Open live app">
     <i class="fa-solid fa-window-restore me-2" aria-hidden="true"></i>
@@ -27,7 +29,7 @@ The primary purpose of this app is to:
 
   <!-- GitHub Source button -->
   <a class="btn btn-outline-dark d-inline-flex align-items-center"
-     href="https://github.com/your-user/your-repo"
+     href="https://github.com/keppnerbarker7/dormchef_b"
      target="_blank" rel="noopener"
      aria-label="Open GitHub source">
     <i class="fa-brands fa-github me-2" aria-hidden="true"></i>
@@ -35,20 +37,106 @@ The primary purpose of this app is to:
   </a>
 </div>
 
-<iframe src="https://tetris-game-egc6.vercel.app/"
+<iframe src="https://dormchef-b-ox99.vercel.app/"
         style="width:100%; height:900px; border:none;"
         allowfullscreen>
 </iframe>
 
 ## Technical Details
 
-Framework/Stack: [e.g., React, Quarto, HTML/CSS/JS]
+Framework/Stack: HTML, CSS, JavaScript
 
-Deployment: GitHub Pages + Vercel
+Deployment: Vercel
 
 Tools Used:
--   Claude Code
+- Claude Code for development assistance
+- GitHub for version control
+- Vercel for hosting and deployment
 
 ## Product Requirements Document
 
-Paste in the PRD that you submitted to Claude Code
+---
+title: "DormChef — MVP PRD"
+author: "Your Name"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    theme: cosmo
+    number-sections: false
+---
+
+# Product Vision
+DormChef is a lightweight web app that helps college students cook **affordable, healthy meals** in small kitchens. It organizes personal and shared recipes into a **meal catalog**, makes it easy to plan meals for the week, and fosters connection by letting students see what their friends are cooking.
+
+# Problem Statement
+- Students want to eat healthy but are constrained by **tiny kitchens, tight budgets, and limited time**.  
+- Current tools (blogs, YouTube, MyFitnessPal, meal-prep TikToks) are overwhelming, expensive, or unrealistic.  
+- There’s no simple, social-first tool that focuses on **realistic, affordable meals** in a student environment.
+
+# Target Users
+- **Primary:** College students (esp. men) living in dorms/apartments with small kitchens and limited budgets.  
+- **Secondary:** Young professionals in their first apartments who want cheap, simple, healthy meals.
+
+# Goals & Non-Goals
+
+## Goals (MVP)
+- Let students build a **personal recipe catalog**.
+- Enable **weekly meal planning** by adding recipes into a calendar.
+- Auto-generate a **shopping list** of ingredients for the week.
+- Add a **social layer**: see friends’ meals and copy recipes into your own plan.
+
+## Non-Goals (for MVP)
+- No macro/calorie tracking.
+- No in-app grocery delivery or payments.
+- No premium subscriptions at launch.
+
+# Core User Stories
+1. As a student, I can add my own recipes and store them in my catalog.  
+2. As a student, I can place recipes into a weekly calendar to plan meals.  
+3. As a student, I can auto-generate a shopping list from my week’s plan.  
+4. As a student, I can follow my friends and see what meals they’re cooking.  
+5. As a student, I can copy a friend’s recipe into my catalog or weekly plan.
+
+# Features & Scope
+
+## Must-Have (MVP)
+- **Recipe Catalog:** Create, store, edit; fields for title, ingredients, steps, time, tags (e.g., high-protein, under-$5, no-oven).
+- **Weekly Planner:** Simple 7-day grid with “Add recipe” to any meal slot; duplicates allowed.
+- **Shopping List:** Aggregate ingredients from planned meals; merge duplicates; show basic quantities.
+- **Friends Feed:** See friends’ added recipes or plans; **Copy to my catalog/plan** action.
+
+## Nice-to-Have (Future)
+- **Cost Estimation** per recipe and per week.
+- **Advanced Tags/Filters:** “10 minutes,” “5 ingredients,” “microwave-only.”
+- **Recipe Monetization:** Pay to follow someone’s weekly plan.
+- **Notifications:** Gentle nudges (e.g., “You planned tacos—don’t forget tortillas.”)
+
+# Success Metrics
+- **Activation:** ≥ 60% of new users add **3+ recipes** in week 1.  
+- **Engagement:** ≥ 40% of WAUs use the meal planner weekly.  
+- **Social:** ≥ 30% of users interact with a friend’s recipe (view/copy).
+
+# Risks & Assumptions
+- Students may default to DoorDash/fast food despite intentions.  
+- Network effects matter: value increases with friends on the app.  
+- Ingredient price tracking may be too complex for MVP; can be estimated later.
+
+# Launch Strategy
+- Deploy as a **web app (Next.js on Vercel)** for fast iteration.  
+- Seed initial users via **campus clubs, dorm RAs, fitness groups**.  
+- Incentivize invites: “Cook-off with 3 friends this week” prompt/challenge.
+
+# MVP Tech Notes (suggested)
+- **Stack:** Next.js (App Router) + TypeScript, Tailwind UI, Prisma (SQLite → Postgres), simple email auth.  
+- **Data Model (high-level):** Users, Recipes, Ingredients, MealPlans, PlanItems, Follows.  
+- **Privacy:** Default private recipes with per-recipe share; feed shows only shared items.
+
+# Open Questions
+- Do we include **cost per recipe** in v1 or v2?  
+- Should friends be **mutual** (friends) or **one-way** (follow)?  
+- Minimum onboarding info (budget level, gear available) for starter suggestions?
+
+---
+
+**Tagline (working):** *“Cook cheap. Cook healthy. Cook together.”*
