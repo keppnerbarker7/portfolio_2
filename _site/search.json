@@ -11,42 +11,70 @@
     "href": "about.html#background",
     "title": "About Me",
     "section": "Background",
-    "text": "Background\nWrite a compelling narrative about your background, education, and what drives your passion for product management. This is your chance to tell your story and connect with potential employers or collaborators.\n\nEducation\n\nDegree Name, University Name (Year)\nRelevant Coursework: List key courses related to product management, analytics, or business\nAcademic Achievements: Honor societies, relevant projects, or awards\n\n\n\nExperience\n\nJob/Internship Title - Company Name\nDates\n\nKey accomplishment or responsibility\nAnother achievement with quantifiable results\nSkills or technologies used\n\n\n\nAnother Position - Company Name\nDates\n\nWhat you contributed to the organization\nProjects you worked on\nImpact you made\n\n\n\n\nSkills & Interests\nTechnical Skills - Programming languages (Python, R, SQL) - Analytics tools (Tableau, Power BI, Google Analytics) - Product management tools (Jira, Confluence, Figma)\nSoft Skills - Communication and presentation - Cross-functional collaboration - Strategic thinking and problem-solving\nInterests Share what you’re passionate about outside of work - this helps humanize your professional brand and can be great conversation starters.\n\n\nWhat’s Next\nDescribe your career goals and what type of opportunities you’re seeking. This helps visitors understand how they might work with you or whether you’d be a good fit for their organization."
+    "text": "Background\nI’m Keppner—a builder, connector, and adventurer at heart. Whether it’s organizing community races like the Broke Boys Half, launching entrepreneurial ventures from surfacing pickleball courts to strategy consulting projects, or diving into global markets through my work with Mangrove Collective, I thrive on creating experiences that bring people together and make a lasting impact. Beyond business, you’ll find me outdoors—running, climbing, skiing, or documenting the world through photography. I believe success comes from curiosity, grit, and prioritizing people over numbers, and I’m driven to use my skills in strategy, business, and storytelling to build ventures that matter.\n\nEducation\n\nBS Strategic Management, Brigham Young University (2027)\nRelevant Coursework: IS 110, IS 201, IS 303, STAT 121, ECON 110, MKTG 201, ENT 300, FIN 201\nAcademic Achievements: 3rd Place, Sorensen’s Center Case Study for The Swig Company, LLC.\n\n\n\nExperience\n\nBusiness Strategy Intern - Mangrove Collective\nMay 2025 - Present\n\nAnalyzing customer demand trends across 5 global markets for expansion based on size, growth, and brand alignment.\nEvaluating sales channels (DTC, retail, design partnerships) to identify most scalable and brand-aligned entry points.\nValidating marketing programs, generating marketing copy and creative tailoring branding to target global markets.\n\n\n\nStrategy and Marketing Intern - ROSE Fitness\nAug 2023 - Jan 2024\n\nConducted comprehensive market research, including weekly focus groups and additional user data analysis, providing actionable insights leading to over a 40% increase in app downloads.\nAnalyzed market research data, including focus group findings. Presented actionable recommendations to CEO.\nCollaborated with the CEO to design and execute targeted social media campaigns based on market research insights, resulting in increased engagement and a 200% growth in followers within 4 months.\n\n\n\n\nSkills & Interests\nTechnical Skills - Programming languages (Python, SQL) - Analytics tools (Tableau, Google Analytics) - Business & Strategy (Market sizing, channel strategy, TAM analysis, international market entry) - Marketing & Research (Focus groups, survey design, social media growth strategies, brand storytelling, customer insights) - Event Management (Race/event planning, budgeting, logistics, sponsorship)\nSoft Skills - Communication and presentation - Strategic thinking and problem-solving - Leadership (Hiring and managing teams, organizing large-scale events, teaching and mentoring)\nInterests I’m passionate about the outdoors—running, climbing, skiing, and backpacking are some of my favorite ways to recharge. I also enjoy photography and filmmaking, both as creative outlets and as tools for storytelling. Travel and adventure fuel my curiosity, while community events and shared experiences keep me grounded in what matters most: people.\n\n\nWhat’s Next\nI’m pursuing opportunities in product management, where I can combine strategy, creativity, and execution to build products that truly serve people. My goal is to bring together my background in entrepreneurship, market research, and community building to craft solutions that solve real problems and create meaningful value. Long term, I see product management as the foundation for leading teams, shaping vision, and launching ventures that make an impact at scale."
   },
   {
     "objectID": "projects/project-1.html",
     "href": "projects/project-1.html",
-    "title": "Name of the application I have published for Homework 1",
+    "title": "DormChef — MVP PRD",
     "section": "",
-    "text": "This project involved using Claude Code to write the code to needed to deveop an app that …\nThe primary purpose of this app is to:\n\n….\n…."
+    "text": "DormChef is a simple, social meal-planning app designed specifically for college students living in dorms with limited kitchen space. The app helps students discover, share, and organize recipes that work with minimal equipment and tight budgets.\nThe primary purpose of this app is to:\n\nHelp college students cook affordable, healthy meals in tiny dorm kitchens\nCreate a social platform for sharing and discovering student-friendly recipes\nOrganize meal planning around limited cooking equipment and storage\nBuild a community of students supporting each other’s cooking journey"
   },
   {
     "objectID": "projects/project-1.html#overview",
     "href": "projects/project-1.html#overview",
-    "title": "Name of the application I have published for Homework 1",
+    "title": "DormChef — MVP PRD",
     "section": "",
-    "text": "This project involved using Claude Code to write the code to needed to deveop an app that …\nThe primary purpose of this app is to:\n\n….\n…."
+    "text": "DormChef is a simple, social meal-planning app designed specifically for college students living in dorms with limited kitchen space. The app helps students discover, share, and organize recipes that work with minimal equipment and tight budgets.\nThe primary purpose of this app is to:\n\nHelp college students cook affordable, healthy meals in tiny dorm kitchens\nCreate a social platform for sharing and discovering student-friendly recipes\nOrganize meal planning around limited cooking equipment and storage\nBuild a community of students supporting each other’s cooking journey"
   },
   {
     "objectID": "projects/project-1.html#live-product-demo",
     "href": "projects/project-1.html#live-product-demo",
-    "title": "Name of the application I have published for Homework 1",
+    "title": "DormChef — MVP PRD",
     "section": "Live Product Demo",
     "text": "Live Product Demo\n\n   Open App in New Tab \n   View source on GitHub"
   },
   {
     "objectID": "projects/project-1.html#technical-details",
     "href": "projects/project-1.html#technical-details",
-    "title": "Name of the application I have published for Homework 1",
+    "title": "DormChef — MVP PRD",
     "section": "Technical Details",
-    "text": "Technical Details\nFramework/Stack: [e.g., React, Quarto, HTML/CSS/JS]\nDeployment: GitHub Pages + Vercel\nTools Used: - Claude Code"
+    "text": "Technical Details\nFramework/Stack: HTML, CSS, JavaScript\nDeployment: Vercel\nTools Used: - Claude Code for development assistance - GitHub for version control - Vercel for hosting and deployment"
   },
   {
     "objectID": "projects/project-1.html#product-requirements-document",
     "href": "projects/project-1.html#product-requirements-document",
-    "title": "Name of the application I have published for Homework 1",
+    "title": "DormChef — MVP PRD",
     "section": "Product Requirements Document",
-    "text": "Product Requirements Document\nPaste in the PRD that you submitted to Claude Code"
+    "text": "Product Requirements Document"
+  },
+  {
+    "objectID": "projects/project-1.html#goals-mvp",
+    "href": "projects/project-1.html#goals-mvp",
+    "title": "DormChef — MVP PRD",
+    "section": "Goals (MVP)",
+    "text": "Goals (MVP)\n\nLet students build a personal recipe catalog.\nEnable weekly meal planning by adding recipes into a calendar.\nAuto-generate a shopping list of ingredients for the week.\nAdd a social layer: see friends’ meals and copy recipes into your own plan."
+  },
+  {
+    "objectID": "projects/project-1.html#non-goals-for-mvp",
+    "href": "projects/project-1.html#non-goals-for-mvp",
+    "title": "DormChef — MVP PRD",
+    "section": "Non-Goals (for MVP)",
+    "text": "Non-Goals (for MVP)\n\nNo macro/calorie tracking.\nNo in-app grocery delivery or payments.\nNo premium subscriptions at launch."
+  },
+  {
+    "objectID": "projects/project-1.html#must-have-mvp",
+    "href": "projects/project-1.html#must-have-mvp",
+    "title": "DormChef — MVP PRD",
+    "section": "Must-Have (MVP)",
+    "text": "Must-Have (MVP)\n\nRecipe Catalog: Create, store, edit; fields for title, ingredients, steps, time, tags (e.g., high-protein, under-$5, no-oven).\nWeekly Planner: Simple 7-day grid with “Add recipe” to any meal slot; duplicates allowed.\nShopping List: Aggregate ingredients from planned meals; merge duplicates; show basic quantities.\nFriends Feed: See friends’ added recipes or plans; Copy to my catalog/plan action."
+  },
+  {
+    "objectID": "projects/project-1.html#nice-to-have-future",
+    "href": "projects/project-1.html#nice-to-have-future",
+    "title": "DormChef — MVP PRD",
+    "section": "Nice-to-Have (Future)",
+    "text": "Nice-to-Have (Future)\n\nCost Estimation per recipe and per week.\nAdvanced Tags/Filters: “10 minutes,” “5 ingredients,” “microwave-only.”\nRecipe Monetization: Pay to follow someone’s weekly plan.\nNotifications: Gentle nudges (e.g., “You planned tacos—don’t forget tortillas.”)"
   },
   {
     "objectID": "projects/project-3.html",
@@ -354,6 +382,6 @@
     "href": "index.html#featured-projects",
     "title": "Welcome to My Product Management Portfolio",
     "section": "Featured Projects",
-    "text": "Featured Projects\n\nName of my first app\nA one sentence description of my first application which is deployed to vercel."
+    "text": "Featured Projects\n\nDormChef\nDormChef is a simple, social meal-planning app that helps college students cook affordable, healthy meals in tiny kitchens by sharing and organizing recipes with friends."
   }
 ]

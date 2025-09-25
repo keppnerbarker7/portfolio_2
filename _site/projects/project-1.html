@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Your Name">
 <meta name="dcterms.date" content="2024-09-15">
 
-<title>Name of the application I have published for Homework 1</title>
+<title>DormChef — MVP PRD</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +32,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../images/prototyping-favicon.png" rel="icon" type="image/png">
+<link href="../images/favicon.svg" rel="icon" type="image/svg+xml">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
@@ -42,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-f245066ca199b7326ac6b360085ddf3a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-f59cc608e70ce16b384b3e6fc30ca698.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -107,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
         <li>
     <a class="dropdown-item" href="../projects/project-1.html">
- <span class="dropdown-text">Name of my first app</span></a>
+ <span class="dropdown-text">DormChef</span></a>
   </li>  
     </ul>
   </li>
@@ -131,6 +132,25 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#live-product-demo" id="toc-live-product-demo" class="nav-link" data-scroll-target="#live-product-demo">Live Product Demo</a></li>
   <li><a href="#technical-details" id="toc-technical-details" class="nav-link" data-scroll-target="#technical-details">Technical Details</a></li>
   <li><a href="#product-requirements-document" id="toc-product-requirements-document" class="nav-link" data-scroll-target="#product-requirements-document">Product Requirements Document</a></li>
+  <li><a href="#product-vision" id="toc-product-vision" class="nav-link" data-scroll-target="#product-vision">Product Vision</a></li>
+  <li><a href="#problem-statement" id="toc-problem-statement" class="nav-link" data-scroll-target="#problem-statement">Problem Statement</a></li>
+  <li><a href="#target-users" id="toc-target-users" class="nav-link" data-scroll-target="#target-users">Target Users</a></li>
+  <li><a href="#goals-non-goals" id="toc-goals-non-goals" class="nav-link" data-scroll-target="#goals-non-goals">Goals &amp; Non-Goals</a>
+  <ul class="collapse">
+  <li><a href="#goals-mvp" id="toc-goals-mvp" class="nav-link" data-scroll-target="#goals-mvp">Goals (MVP)</a></li>
+  <li><a href="#non-goals-for-mvp" id="toc-non-goals-for-mvp" class="nav-link" data-scroll-target="#non-goals-for-mvp">Non-Goals (for MVP)</a></li>
+  </ul></li>
+  <li><a href="#core-user-stories" id="toc-core-user-stories" class="nav-link" data-scroll-target="#core-user-stories">Core User Stories</a></li>
+  <li><a href="#features-scope" id="toc-features-scope" class="nav-link" data-scroll-target="#features-scope">Features &amp; Scope</a>
+  <ul class="collapse">
+  <li><a href="#must-have-mvp" id="toc-must-have-mvp" class="nav-link" data-scroll-target="#must-have-mvp">Must-Have (MVP)</a></li>
+  <li><a href="#nice-to-have-future" id="toc-nice-to-have-future" class="nav-link" data-scroll-target="#nice-to-have-future">Nice-to-Have (Future)</a></li>
+  </ul></li>
+  <li><a href="#success-metrics" id="toc-success-metrics" class="nav-link" data-scroll-target="#success-metrics">Success Metrics</a></li>
+  <li><a href="#risks-assumptions" id="toc-risks-assumptions" class="nav-link" data-scroll-target="#risks-assumptions">Risks &amp; Assumptions</a></li>
+  <li><a href="#launch-strategy" id="toc-launch-strategy" class="nav-link" data-scroll-target="#launch-strategy">Launch Strategy</a></li>
+  <li><a href="#mvp-tech-notes-suggested" id="toc-mvp-tech-notes-suggested" class="nav-link" data-scroll-target="#mvp-tech-notes-suggested">MVP Tech Notes (suggested)</a></li>
+  <li><a href="#open-questions" id="toc-open-questions" class="nav-link" data-scroll-target="#open-questions">Open Questions</a></li>
   </ul>
 </nav>
     </div>
@@ -139,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Name of the application I have published for Homework 1</h1>
+<h1 class="title">DormChef — MVP PRD</h1>
   <div class="quarto-categories">
     <div class="quarto-category">GitHub</div>
     <div class="quarto-category">Vercel</div>
@@ -151,6 +171,12 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Your Name </p>
+          </div>
+  </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
@@ -169,31 +195,161 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>This project involved using Claude Code to write the code to needed to deveop an app that …</p>
+<p>DormChef is a simple, social meal-planning app designed specifically for college students living in dorms with limited kitchen space. The app helps students discover, share, and organize recipes that work with minimal equipment and tight budgets.</p>
 <p>The primary purpose of this app is to:</p>
 <ul>
-<li>….</li>
-<li>….</li>
+<li>Help college students cook affordable, healthy meals in tiny dorm kitchens</li>
+<li>Create a social platform for sharing and discovering student-friendly recipes</li>
+<li>Organize meal planning around limited cooking equipment and storage</li>
+<li>Build a community of students supporting each other’s cooking journey</li>
 </ul>
 </section>
 <section id="live-product-demo" class="level2">
 <h2 class="anchored" data-anchor-id="live-product-demo">Live Product Demo</h2>
 <div class="d-flex justify-content-center gap-3 my-4">
-<p><!-- Open App button --> <a class="btn btn-primary d-inline-flex align-items-center" href="https://tetris-game-egc6.vercel.app/" target="_blank" rel="noopener" aria-label="Open live app"> <i class="fa-solid fa-window-restore me-2" aria-hidden="true"></i> Open App in New Tab </a></p>
-<p><!-- GitHub Source button --> <a class="btn btn-outline-dark d-inline-flex align-items-center" href="https://github.com/your-user/your-repo" target="_blank" rel="noopener" aria-label="Open GitHub source"> <i class="fa-brands fa-github me-2" aria-hidden="true"></i> View source on GitHub </a></p>
+<p><!-- Open App button --> <a class="btn btn-primary d-inline-flex align-items-center" href="https://dormchef-b-ox99.vercel.app/" target="_blank" rel="noopener" aria-label="Open live app"> <i class="fa-solid fa-window-restore me-2" aria-hidden="true"></i> Open App in New Tab </a></p>
+<p><!-- GitHub Source button --> <a class="btn btn-outline-dark d-inline-flex align-items-center" href="https://github.com/keppnerbarker7/dormchef_b" target="_blank" rel="noopener" aria-label="Open GitHub source"> <i class="fa-brands fa-github me-2" aria-hidden="true"></i> View source on GitHub </a></p>
 </div>
-<iframe src="https://tetris-game-egc6.vercel.app/" style="width:100%; height:900px; border:none;" allowfullscreen="">
+<iframe src="https://dormchef-b-ox99.vercel.app/" style="width:100%; height:900px; border:none;" allowfullscreen="">
 </iframe>
 </section>
 <section id="technical-details" class="level2">
 <h2 class="anchored" data-anchor-id="technical-details">Technical Details</h2>
-<p>Framework/Stack: [e.g., React, Quarto, HTML/CSS/JS]</p>
-<p>Deployment: GitHub Pages + Vercel</p>
-<p>Tools Used: - Claude Code</p>
+<p>Framework/Stack: HTML, CSS, JavaScript</p>
+<p>Deployment: Vercel</p>
+<p>Tools Used: - Claude Code for development assistance - GitHub for version control - Vercel for hosting and deployment</p>
 </section>
 <section id="product-requirements-document" class="level2">
 <h2 class="anchored" data-anchor-id="product-requirements-document">Product Requirements Document</h2>
-<p>Paste in the PRD that you submitted to Claude Code</p>
+</section>
+<section id="product-vision" class="level1">
+<h1>Product Vision</h1>
+<p>DormChef is a lightweight web app that helps college students cook <strong>affordable, healthy meals</strong> in small kitchens. It organizes personal and shared recipes into a <strong>meal catalog</strong>, makes it easy to plan meals for the week, and fosters connection by letting students see what their friends are cooking.</p>
+</section>
+<section id="problem-statement" class="level1">
+<h1>Problem Statement</h1>
+<ul>
+<li>Students want to eat healthy but are constrained by <strong>tiny kitchens, tight budgets, and limited time</strong>.<br>
+</li>
+<li>Current tools (blogs, YouTube, MyFitnessPal, meal-prep TikToks) are overwhelming, expensive, or unrealistic.<br>
+</li>
+<li>There’s no simple, social-first tool that focuses on <strong>realistic, affordable meals</strong> in a student environment.</li>
+</ul>
+</section>
+<section id="target-users" class="level1">
+<h1>Target Users</h1>
+<ul>
+<li><strong>Primary:</strong> College students (esp.&nbsp;men) living in dorms/apartments with small kitchens and limited budgets.<br>
+</li>
+<li><strong>Secondary:</strong> Young professionals in their first apartments who want cheap, simple, healthy meals.</li>
+</ul>
+</section>
+<section id="goals-non-goals" class="level1">
+<h1>Goals &amp; Non-Goals</h1>
+<section id="goals-mvp" class="level2">
+<h2 class="anchored" data-anchor-id="goals-mvp">Goals (MVP)</h2>
+<ul>
+<li>Let students build a <strong>personal recipe catalog</strong>.</li>
+<li>Enable <strong>weekly meal planning</strong> by adding recipes into a calendar.</li>
+<li>Auto-generate a <strong>shopping list</strong> of ingredients for the week.</li>
+<li>Add a <strong>social layer</strong>: see friends’ meals and copy recipes into your own plan.</li>
+</ul>
+</section>
+<section id="non-goals-for-mvp" class="level2">
+<h2 class="anchored" data-anchor-id="non-goals-for-mvp">Non-Goals (for MVP)</h2>
+<ul>
+<li>No macro/calorie tracking.</li>
+<li>No in-app grocery delivery or payments.</li>
+<li>No premium subscriptions at launch.</li>
+</ul>
+</section>
+</section>
+<section id="core-user-stories" class="level1">
+<h1>Core User Stories</h1>
+<ol type="1">
+<li>As a student, I can add my own recipes and store them in my catalog.<br>
+</li>
+<li>As a student, I can place recipes into a weekly calendar to plan meals.<br>
+</li>
+<li>As a student, I can auto-generate a shopping list from my week’s plan.<br>
+</li>
+<li>As a student, I can follow my friends and see what meals they’re cooking.<br>
+</li>
+<li>As a student, I can copy a friend’s recipe into my catalog or weekly plan.</li>
+</ol>
+</section>
+<section id="features-scope" class="level1">
+<h1>Features &amp; Scope</h1>
+<section id="must-have-mvp" class="level2">
+<h2 class="anchored" data-anchor-id="must-have-mvp">Must-Have (MVP)</h2>
+<ul>
+<li><strong>Recipe Catalog:</strong> Create, store, edit; fields for title, ingredients, steps, time, tags (e.g., high-protein, under-$5, no-oven).</li>
+<li><strong>Weekly Planner:</strong> Simple 7-day grid with “Add recipe” to any meal slot; duplicates allowed.</li>
+<li><strong>Shopping List:</strong> Aggregate ingredients from planned meals; merge duplicates; show basic quantities.</li>
+<li><strong>Friends Feed:</strong> See friends’ added recipes or plans; <strong>Copy to my catalog/plan</strong> action.</li>
+</ul>
+</section>
+<section id="nice-to-have-future" class="level2">
+<h2 class="anchored" data-anchor-id="nice-to-have-future">Nice-to-Have (Future)</h2>
+<ul>
+<li><strong>Cost Estimation</strong> per recipe and per week.</li>
+<li><strong>Advanced Tags/Filters:</strong> “10 minutes,” “5 ingredients,” “microwave-only.”</li>
+<li><strong>Recipe Monetization:</strong> Pay to follow someone’s weekly plan.</li>
+<li><strong>Notifications:</strong> Gentle nudges (e.g., “You planned tacos—don’t forget tortillas.”)</li>
+</ul>
+</section>
+</section>
+<section id="success-metrics" class="level1">
+<h1>Success Metrics</h1>
+<ul>
+<li><strong>Activation:</strong> ≥ 60% of new users add <strong>3+ recipes</strong> in week 1.<br>
+</li>
+<li><strong>Engagement:</strong> ≥ 40% of WAUs use the meal planner weekly.<br>
+</li>
+<li><strong>Social:</strong> ≥ 30% of users interact with a friend’s recipe (view/copy).</li>
+</ul>
+</section>
+<section id="risks-assumptions" class="level1">
+<h1>Risks &amp; Assumptions</h1>
+<ul>
+<li>Students may default to DoorDash/fast food despite intentions.<br>
+</li>
+<li>Network effects matter: value increases with friends on the app.<br>
+</li>
+<li>Ingredient price tracking may be too complex for MVP; can be estimated later.</li>
+</ul>
+</section>
+<section id="launch-strategy" class="level1">
+<h1>Launch Strategy</h1>
+<ul>
+<li>Deploy as a <strong>web app (Next.js on Vercel)</strong> for fast iteration.<br>
+</li>
+<li>Seed initial users via <strong>campus clubs, dorm RAs, fitness groups</strong>.<br>
+</li>
+<li>Incentivize invites: “Cook-off with 3 friends this week” prompt/challenge.</li>
+</ul>
+</section>
+<section id="mvp-tech-notes-suggested" class="level1">
+<h1>MVP Tech Notes (suggested)</h1>
+<ul>
+<li><strong>Stack:</strong> Next.js (App Router) + TypeScript, Tailwind UI, Prisma (SQLite → Postgres), simple email auth.<br>
+</li>
+<li><strong>Data Model (high-level):</strong> Users, Recipes, Ingredients, MealPlans, PlanItems, Follows.<br>
+</li>
+<li><strong>Privacy:</strong> Default private recipes with per-recipe share; feed shows only shared items.</li>
+</ul>
+</section>
+<section id="open-questions" class="level1">
+<h1>Open Questions</h1>
+<ul>
+<li>Do we include <strong>cost per recipe</strong> in v1 or v2?<br>
+</li>
+<li>Should friends be <strong>mutual</strong> (friends) or <strong>one-way</strong> (follow)?<br>
+</li>
+<li>Minimum onboarding info (budget level, gear available) for starter suggestions?</li>
+</ul>
+<hr>
+<p><strong>Tagline (working):</strong> <em>“Cook cheap. Cook healthy. Cook together.”</em></p>
 
 
 </section>
