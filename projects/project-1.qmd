@@ -20,7 +20,7 @@ The primary purpose of this app is to:
 <div class="d-flex justify-content-center gap-3 my-4">
   <!-- Open App button -->
   <a class="btn btn-primary d-inline-flex align-items-center"
-     href="https://dormchef-b-ox99.vercel.app/"
+     href="https://dormchef-mvp.vercel.app/"
      target="_blank" rel="noopener"
      aria-label="Open live app">
     <i class="fa-solid fa-window-restore me-2" aria-hidden="true"></i>
@@ -29,7 +29,7 @@ The primary purpose of this app is to:
 
   <!-- GitHub Source button -->
   <a class="btn btn-outline-dark d-inline-flex align-items-center"
-     href="https://github.com/keppnerbarker7/dormchef_b"
+     href="https://github.com/keppnerbarker7/dormchef_mvp"
      target="_blank" rel="noopener"
      aria-label="Open GitHub source">
     <i class="fa-brands fa-github me-2" aria-hidden="true"></i>
@@ -37,7 +37,7 @@ The primary purpose of this app is to:
   </a>
 </div>
 
-<iframe src="https://dormchef-b-ox99.vercel.app/"
+<iframe src="https://dormchef-mvp.vercel.app/"
         style="width:100%; height:900px; border:none;"
         allowfullscreen>
 </iframe>
