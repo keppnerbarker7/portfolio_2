@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visuals - Adventure Photography | Keppner Barker</title>
+    <meta name="description" content="Adventure photography and storytelling — from the Wasatch to the Himalayas. Capturing stories of exploration and human connection with nature.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-primary" id="main-nav">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">KB</a>
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="visuals.html" class="active">Visuals</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="nav-progress" id="scroll-progress"></div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="nav-menu-mobile" id="nav-menu-mobile">
+        <ul class="nav-menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="visuals.html">Visuals</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Visuals Hero -->
+    <section class="hero" style="padding: 120px 0 var(--space-2xl);">
+        <div class="container text-center">
+            <h1 class="animate-on-scroll fade-in-up">Adventure Photography</h1>
+            <p class="text-large animate-on-scroll fade-in-up stagger-1" style="max-width: 700px; margin: 0 auto var(--space-xl);">
+                Capturing stories of exploration and human connection with nature — from the Wasatch Mountains to the Himalayas,
+                my camera helps me connect people to purpose.
+            </p>
+        </div>
+    </section>
+
+    <!-- Gallery Filters -->
+    <section style="padding: var(--space-lg) 0;">
+        <div class="container">
+            <div class="project-filters animate-on-scroll fade-in-up">
+                <button class="filter-btn active" data-filter="all">All Photos</button>
+                <button class="filter-btn" data-filter="mountains">Mountains</button>
+                <button class="filter-btn" data-filter="adventure">Adventure</button>
+                <button class="filter-btn" data-filter="people">People</button>
+                <button class="filter-btn" data-filter="landscape">Landscape</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section class="section-sm">
+        <div class="container">
+            <div class="gallery-grid" id="photo-gallery">
+                <!-- India Travel Series -->
+                <div class="gallery-item animate-on-scroll fade-in-up stagger-2" data-category="people landscape">
+                    <img src="assets/images/gallery/India_2025-18.jpg"
+                         alt="Street photography in Mumbai"
+                         data-caption="Street life and culture in Mumbai - India"
+                         loading="lazy">
+                    <div class="gallery-item__overlay">
+                        <span class="gallery-item__caption">Street life and culture in Mumbai</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll fade-in-up stagger-3" data-category="people landscape">
+                    <img src="assets/images/gallery/India_2025-19.jpg"
+                         alt="Local entrepreneurs in Mumbai"
+                         data-caption="Local entrepreneurs in Mumbai - Part of Mangrove research"
+                         loading="lazy">
+                    <div class="gallery-item__overlay">
+                        <span class="gallery-item__caption">Local entrepreneurs in Mumbai</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll fade-in-up stagger-4" data-category="landscape adventure">
+                    <img src="assets/images/gallery/India_2025-20.jpg"
+                         alt="Himalayan foothills near Rishikesh"
+                         data-caption="Himalayan foothills near Rishikesh - India"
+                         loading="lazy">
+                    <div class="gallery-item__overlay">
+                        <span class="gallery-item__caption">Himalayan foothills near Rishikesh</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll fade-in-up stagger-5" data-category="people adventure">
+                    <img src="assets/images/gallery/India_2025-21.jpg"
+                         alt="Adventure and exploration in India"
+                         data-caption="Adventure and exploration in India during research"
+                         loading="lazy">
+                    <div class="gallery-item__overlay">
+                        <span class="gallery-item__caption">Adventure and exploration in India</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll fade-in-up stagger-6" data-category="landscape">
+                    <img src="assets/images/gallery/India_2025-22.jpg"
+                         alt="Indian landscapes"
+                         data-caption="Capturing the diverse landscapes of India"
+                         loading="lazy">
+                    <div class="gallery-item__overlay">
+                        <span class="gallery-item__caption">Capturing the diverse landscapes of India</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll fade-in-up stagger-7" data-category="people">
+                    <img src="assets/images/gallery/India_2025-23.jpg"
+                         alt="Cultural moments in India"
+                         data-caption="Cultural moments and human connections in India"
+                         loading="lazy">
+                    <div class="gallery-item__overlay">
+                        <span class="gallery-item__caption">Cultural moments and human connections</span>
+                    </div>
+                </div>
+
+                <!-- Copenhagen Urban Series -->
+                <div class="gallery-item animate-on-scroll fade-in-up stagger-8" data-category="landscape people">
+                    <img src="assets/images/gallery/Copenhagen-1.jpg"
+                         alt="Copenhagen cityscape"
+                         data-caption="Urban exploration in Copenhagen - Denmark"
+                         loading="lazy">
+                    <div class="gallery-item__overlay">
+                        <span class="gallery-item__caption">Urban exploration in Copenhagen</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll fade-in-up stagger-9" data-category="landscape">
+                    <img src="assets/images/gallery/Copenhagen-2.jpg"
+                         alt="Copenhagen architecture"
+                         data-caption="Modern architecture and design in Copenhagen"
+                         loading="lazy">
+                    <div class="gallery-item__overlay">
+                        <span class="gallery-item__caption">Modern architecture and design in Copenhagen</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll fade-in-up stagger-10" data-category="people landscape">
+                    <img src="assets/images/gallery/Copenhagen-3.jpg"
+                         alt="Copenhagen street life"
+                         data-caption="Street life and culture in Copenhagen"
+                         loading="lazy">
+                    <div class="gallery-item__overlay">
+                        <span class="gallery-item__caption">Street life and culture in Copenhagen</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll fade-in-up stagger-11" data-category="landscape">
+                    <img src="assets/images/gallery/Copenhagen-4.jpg"
+                         alt="Copenhagen waterfront"
+                         data-caption="Copenhagen waterfront and maritime culture"
+                         loading="lazy">
+                    <div class="gallery-item__overlay">
+                        <span class="gallery-item__caption">Copenhagen waterfront and maritime culture</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll fade-in-up stagger-12" data-category="landscape adventure">
+                    <img src="assets/images/gallery/Copenhagen-5.jpg"
+                         alt="Copenhagen outdoor spaces"
+                         data-caption="Outdoor spaces and recreational areas in Copenhagen"
+                         loading="lazy">
+                    <div class="gallery-item__overlay">
+                        <span class="gallery-item__caption">Outdoor spaces and recreational areas</span>
+                    </div>
+                </div>
+
+                <!-- Toronto Series -->
+                <div class="gallery-item animate-on-scroll fade-in-up stagger-13" data-category="landscape people">
+                    <img src="assets/images/gallery/Toronto_2025-3.jpg"
+                         alt="Toronto cityscape"
+                         data-caption="Urban exploration in Toronto - Canada"
+                         loading="lazy">
+                    <div class="gallery-item__overlay">
+                        <span class="gallery-item__caption">Urban exploration in Toronto</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll fade-in-up stagger-14" data-category="landscape">
+                    <img src="assets/images/gallery/Toronto_2025-4.jpg"
+                         alt="Toronto architecture"
+                         data-caption="Modern architecture and skyline in Toronto"
+                         loading="lazy">
+                    <div class="gallery-item__overlay">
+                        <span class="gallery-item__caption">Modern architecture and skyline in Toronto</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll fade-in-up stagger-15" data-category="people adventure">
+                    <img src="assets/images/gallery/Toronto_2025-5.jpg"
+                         alt="Toronto street photography"
+                         data-caption="Street photography and urban culture in Toronto"
+                         loading="lazy">
+                    <div class="gallery-item__overlay">
+                        <span class="gallery-item__caption">Street photography and urban culture</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll fade-in-up stagger-16" data-category="landscape">
+                    <img src="assets/images/gallery/Toronto_2025-6.jpg"
+                         alt="Toronto waterfront"
+                         data-caption="Toronto waterfront and Lake Ontario"
+                         loading="lazy">
+                    <div class="gallery-item__overlay">
+                        <span class="gallery-item__caption">Toronto waterfront and Lake Ontario</span>
+                    </div>
+                </div>
+
+                <!-- Mountain/Adventure Series -->
+                <div class="gallery-item animate-on-scroll fade-in-up stagger-17" data-category="mountains landscape">
+                    <img src="assets/images/gallery/Fairview25_-06.jpg"
+                         alt="Mountain adventure photography"
+                         data-caption="Mountain adventure and landscape photography"
+                         loading="lazy">
+                    <div class="gallery-item__overlay">
+                        <span class="gallery-item__caption">Mountain adventure and landscape photography</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll fade-in-up stagger-18" data-category="mountains adventure">
+                    <img src="assets/images/gallery/Fairview25_-11.jpg"
+                         alt="Alpine exploration"
+                         data-caption="Alpine exploration and mountaineering"
+                         loading="lazy">
+                    <div class="gallery-item__overlay">
+                        <span class="gallery-item__caption">Alpine exploration and mountaineering</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll fade-in-up stagger-19" data-category="mountains landscape">
+                    <img src="assets/images/gallery/Fairview25_-13.jpg"
+                         alt="High alpine landscapes"
+                         data-caption="High alpine landscapes and wilderness"
+                         loading="lazy">
+                    <div class="gallery-item__overlay">
+                        <span class="gallery-item__caption">High alpine landscapes and wilderness</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll fade-in-up stagger-20" data-category="mountains adventure">
+                    <img src="assets/images/gallery/Fairview25_-18.jpg"
+                         alt="Mountain summit views"
+                         data-caption="Mountain summit views and achievement"
+                         loading="lazy">
+                    <div class="gallery-item__overlay">
+                        <span class="gallery-item__caption">Mountain summit views and achievement</span>
+                    </div>
+                </div>
+
+                <!-- Professional Project Photography -->
+                <div class="gallery-item animate-on-scroll fade-in-up stagger-21" data-category="events people">
+                    <img src="assets/images/gallery/KeppnerBarker_StudentWellness.jpg"
+                         alt="Student wellness project"
+                         data-caption="Student wellness and campus life documentation"
+                         loading="lazy">
+                    <div class="gallery-item__overlay">
+                        <span class="gallery-item__caption">Student wellness and campus life</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll fade-in-up stagger-22" data-category="adventure landscape">
+                    <img src="assets/images/gallery/KeppnerBarker_NatureAndAdventure.jpg"
+                         alt="Nature and adventure project"
+                         data-caption="Nature and adventure storytelling project"
+                         loading="lazy">
+                    <div class="gallery-item__overlay">
+                        <span class="gallery-item__caption">Nature and adventure storytelling</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll fade-in-up stagger-23" data-category="people events">
+                    <img src="assets/images/gallery/KeppnerBarker_StudentLifeReframed.jpg"
+                         alt="Student life reframed project"
+                         data-caption="Student life reframed - campus culture documentation"
+                         loading="lazy">
+                    <div class="gallery-item__overlay">
+                        <span class="gallery-item__caption">Student life reframed - campus culture</span>
+                    </div>
+                </div>
+
+                <div class="gallery-item animate-on-scroll fade-in-up stagger-24" data-category="adventure people">
+                    <img src="assets/images/gallery/KeppnerBarker_TheWorldIsOurCampus.jpg"
+                         alt="The world is our campus project"
+                         data-caption="The world is our campus - global education project"
+                         loading="lazy">
+                    <div class="gallery-item__overlay">
+                        <span class="gallery-item__caption">The world is our campus - global education</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photography Philosophy -->
+    <section class="section" style="background: var(--color-surface);">
+        <div class="container">
+            <div class="container-narrow text-center">
+                <div class="animate-on-scroll fade-in-up">
+                    <h2>Photography as Storytelling</h2>
+                    <p class="text-large">
+                        Every photograph tells a story of connection — between people and places, between challenge and growth,
+                        between individual adventure and shared experience.
+                    </p>
+                    <p>
+                        My camera is a tool for documenting not just what I see, but what I feel in moments of exploration and discovery.
+                        Whether capturing the determination of athletes pushing their limits, the quiet beauty of alpine landscapes,
+                        or the vibrant energy of community events, I aim to preserve the emotions and stories that make each adventure meaningful.
+                    </p>
+                    <p>
+                        From the technical challenge of summit photography to the human stories found in Mumbai's entrepreneurial community,
+                        my visual work reflects the same principles that guide my product work: curiosity, empathy, and a commitment to
+                        bringing people together around shared experiences.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipment & Approach -->
+    <section class="section">
+        <div class="container">
+            <div class="grid grid-2" style="align-items: center; gap: var(--space-3xl);">
+                <div class="animate-on-scroll fade-in-left">
+                    <h2>Equipment & Approach</h2>
+                    <p>
+                        My photography kit is built for adventure — lightweight, weather-resistant, and capable of capturing
+                        both intimate moments and expansive landscapes.
+                    </p>
+                    <ul style="list-style: none; padding: 0; margin: var(--space-lg) 0;">
+                        <li style="margin-bottom: var(--space-sm);">📷 <strong>Sony α7R V</strong> - Primary camera for high-resolution landscape and event work</li>
+                        <li style="margin-bottom: var(--space-sm);">🔍 <strong>16-35mm f/2.8</strong> - Wide-angle for landscapes and group adventure shots</li>
+                        <li style="margin-bottom: var(--space-sm);">📱 <strong>iPhone 15 Pro</strong> - Always-ready camera for spontaneous moments and stories</li>
+                        <li style="margin-bottom: var(--space-sm);">🎒 <strong>Peak Design Travel Kit</strong> - Modular bag system for backcountry photography</li>
+                    </ul>
+                    <p>
+                        My approach prioritizes <strong>being present</strong> over getting the perfect shot. The best adventure
+                        photos happen when you're fully engaged in the experience, not just documenting it.
+                    </p>
+                </div>
+                <div class="animate-on-scroll fade-in-right">
+                    <img src="assets/images/gallery/camera-setup.jpg" alt="Photography equipment in the field"
+                         style="width: 100%; border-radius: var(--border-radius-lg); box-shadow: var(--shadow-lg);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact for Photography -->
+    <section class="section" style="background: var(--color-surface);">
+        <div class="container text-center">
+            <div class="animate-on-scroll fade-in-up">
+                <h2>Let's Capture Your Story</h2>
+                <p class="text-large" style="max-width: 600px; margin: 0 auto var(--space-xl);">
+                    Available for adventure photography, event documentation, and storytelling projects that
+                    connect people to meaningful experiences.
+                </p>
+                <div style="display: flex; gap: var(--space-md); justify-content: center; flex-wrap: wrap;">
+                    <a href="contact.html" class="btn btn-primary">Discuss a Project</a>
+                    <a href="https://instagram.com/keppnerbarker" target="_blank" class="btn btn-secondary">Follow on Instagram</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox__content">
+            <img class="lightbox__image" id="lightbox-image" src="" alt="">
+            <button class="lightbox__close" id="lightbox-close" aria-label="Close lightbox">&times;</button>
+            <button class="lightbox__nav lightbox__prev" id="lightbox-prev" aria-label="Previous image">&#8249;</button>
+            <button class="lightbox__nav lightbox__next" id="lightbox-next" aria-label="Next image">&#8250;</button>
+        </div>
+        <div class="lightbox__caption" id="lightbox-caption"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer style="background: var(--color-text); color: white; padding: var(--space-xl) 0;">
+        <div class="container">
+            <div class="flex justify-between items-center" style="flex-wrap: wrap; gap: var(--space-md);">
+                <div>
+                    <p style="margin: 0; color: rgba(255,255,255,0.8);">
+                        © 2024 Keppner Barker. Built with purpose.
+                    </p>
+                </div>
+                <div style="display: flex; gap: var(--space-md);">
+                    <a href="https://linkedin.com/in/keppnerbarker" target="_blank"
+                       style="color: rgba(255,255,255,0.8); text-decoration: none;">LinkedIn</a>
+                    <a href="https://github.com/keppnerbarker7" target="_blank"
+                       style="color: rgba(255,255,255,0.8); text-decoration: none;">GitHub</a>
+                    <a href="mailto:hello@keppnerbarker.com"
+                       style="color: rgba(255,255,255,0.8); text-decoration: none;">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>

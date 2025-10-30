@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work - Product & Creative Projects | Keppner Barker</title>
+    <meta name="description" content="Explore Keppner Barker's portfolio of product management, event creation, and creative projects that bring people together.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-primary" id="main-nav">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">KB</a>
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="work.html" class="active">Work</a></li>
+                <li><a href="visuals.html">Visuals</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="nav-progress" id="scroll-progress"></div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="nav-menu-mobile" id="nav-menu-mobile">
+        <ul class="nav-menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="visuals.html">Visuals</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Work Hero -->
+    <section class="hero" style="padding: 120px 0 var(--space-2xl);">
+        <div class="container text-center">
+            <h1 class="animate-on-scroll fade-in-up">Product & Creative Work</h1>
+            <p class="text-large animate-on-scroll fade-in-up stagger-1" style="max-width: 700px; margin: 0 auto var(--space-xl);">
+                From product strategy to event creation, each project is an adventure in bringing people together through thoughtful design and execution.
+            </p>
+        </div>
+    </section>
+
+    <!-- Project Filters -->
+    <section style="padding: var(--space-lg) 0;">
+        <div class="container">
+            <div class="project-filters animate-on-scroll fade-in-up">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="product">Product</button>
+                <button class="filter-btn" data-filter="event">Events</button>
+                <button class="filter-btn" data-filter="business">Business</button>
+                <button class="filter-btn" data-filter="creative">Creative</button>
+                <button class="filter-btn" data-filter="research">Research</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="section-sm">
+        <div class="container">
+            <div class="grid grid-2" id="projects-grid">
+                <!-- DormChef Project -->
+                <article class="project-card animate-on-scroll fade-in-up stagger-2" data-category="product">
+                    <div class="project-card__media">
+                        <img src="images/KeppnerBarker_StudentWellness.jpg" alt="DormChef App Interface" loading="lazy">
+                        <div class="project-card__overlay">
+                            <span class="project-card__category">Product</span>
+                            <h3 class="project-card__title">DormChef</h3>
+                            <p class="project-card__description">
+                                Social meal-planning app helping college students cook affordable, healthy meals in tiny kitchens by sharing and organizing recipes with friends.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__tags">
+                            <span class="tag">Product Strategy</span>
+                            <span class="tag">UX Design</span>
+                            <span class="tag">User Research</span>
+                        </div>
+                        <a href="projects/dormchef.html" class="project-card__link">View Case Study</a>
+                    </div>
+                </article>
+
+                <!-- Broke Boys Half -->
+                <article class="project-card animate-on-scroll fade-in-up stagger-3" data-category="event">
+                    <div class="project-card__media">
+                        <img src="images/KeppnerBarker_NatureAndAdventure.jpg" alt="Broke Boys Half Marathon Event" loading="lazy">
+                        <div class="project-card__overlay">
+                            <span class="project-card__category">Event</span>
+                            <h3 class="project-card__title">Broke Boys Half</h3>
+                            <p class="project-card__description">
+                                Community-driven half marathon bringing together 200+ college students for an affordable racing experience with $15 entry fees.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__tags">
+                            <span class="tag">Event Management</span>
+                            <span class="tag">Community Building</span>
+                            <span class="tag">Operations</span>
+                        </div>
+                        <a href="projects/broke-boys.html" class="project-card__link">View Case Study</a>
+                    </div>
+                </article>
+
+                <!-- Utah Valley Pickleball -->
+                <article class="project-card animate-on-scroll fade-in-up stagger-4" data-category="business">
+                    <div class="project-card__media">
+                        <img src="images/KeppnerBarker_StudentLifeReframed.jpg" alt="Utah Valley Pickleball Community" loading="lazy">
+                        <div class="project-card__overlay">
+                            <span class="project-card__category">Business</span>
+                            <h3 class="project-card__title">Utah Valley Pickleball</h3>
+                            <p class="project-card__description">
+                                Growing a local pickleball community from 0 to 500+ members through strategic partnerships and grassroots marketing.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__tags">
+                            <span class="tag">Business Development</span>
+                            <span class="tag">Marketing</span>
+                            <span class="tag">Partnership</span>
+                        </div>
+                        <a href="projects/pickleball.html" class="project-card__link">View Case Study</a>
+                    </div>
+                </article>
+
+                <!-- Wasatch Open Water -->
+                <article class="project-card animate-on-scroll fade-in-up stagger-5" data-category="creative">
+                    <div class="project-card__media">
+                        <img src="images/Fairview25_-06.jpg" alt="Wasatch Open Water Visual Identity" loading="lazy">
+                        <div class="project-card__overlay">
+                            <span class="project-card__category">Creative</span>
+                            <h3 class="project-card__title">Wasatch Open Water</h3>
+                            <p class="project-card__description">
+                                Complete visual identity and event production for Utah's premier open water swimming community and race series.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__tags">
+                            <span class="tag">Visual Identity</span>
+                            <span class="tag">Event Production</span>
+                            <span class="tag">Photography</span>
+                        </div>
+                        <a href="projects/wasatch-water.html" class="project-card__link">View Case Study</a>
+                    </div>
+                </article>
+
+                <!-- Mangrove Collective Research -->
+                <article class="project-card animate-on-scroll fade-in-up stagger-6" data-category="research">
+                    <div class="project-card__media">
+                        <img src="images/India_2025-21.jpg" alt="Mangrove Collective Research in India" loading="lazy">
+                        <div class="project-card__overlay">
+                            <span class="project-card__category">Research</span>
+                            <h3 class="project-card__title">Mangrove Collective</h3>
+                            <p class="project-card__description">
+                                Research internship in Mumbai developing frameworks for impact measurement in social enterprises across emerging markets.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__tags">
+                            <span class="tag">Impact Research</span>
+                            <span class="tag">Framework Development</span>
+                            <span class="tag">Social Enterprise</span>
+                        </div>
+                        <a href="projects/mangrove.html" class="project-card__link">View Case Study</a>
+                    </div>
+                </article>
+
+                <!-- Product Strategy Course -->
+                <article class="project-card animate-on-scroll fade-in-up stagger-7" data-category="product">
+                    <div class="project-card__media">
+                        <img src="images/KeppnerBarker_TheWorldIsOurCampus.jpg" alt="Product Strategy Framework" loading="lazy">
+                        <div class="project-card__overlay">
+                            <span class="project-card__category">Product</span>
+                            <h3 class="project-card__title">Product Strategy Framework</h3>
+                            <p class="project-card__description">
+                                Comprehensive framework for early-stage product strategy developed through BYU's Strategic Management program.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__tags">
+                            <span class="tag">Product Strategy</span>
+                            <span class="tag">Framework Design</span>
+                            <span class="tag">Academic Research</span>
+                        </div>
+                        <a href="projects/product-strategy.html" class="project-card__link">View Case Study</a>
+                    </div>
+                </article>
+
+                <!-- Adventure Photography -->
+                <article class="project-card animate-on-scroll fade-in-up stagger-8" data-category="creative">
+                    <div class="project-card__media">
+                        <img src="images/Fairview25_-13.jpg" alt="Adventure Photography Portfolio" loading="lazy">
+                        <div class="project-card__overlay">
+                            <span class="project-card__category">Creative</span>
+                            <h3 class="project-card__title">Adventure Photography</h3>
+                            <p class="project-card__description">
+                                Capturing stories of adventure and exploration from the Wasatch Mountains to the Himalayas, documenting human connection with nature.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__tags">
+                            <span class="tag">Photography</span>
+                            <span class="tag">Storytelling</span>
+                            <span class="tag">Adventure</span>
+                        </div>
+                        <a href="visuals.html" class="project-card__link">View Gallery</a>
+                    </div>
+                </article>
+
+                <!-- Community Event Series -->
+                <article class="project-card animate-on-scroll fade-in-up stagger-9" data-category="event">
+                    <div class="project-card__media">
+                        <img src="images/keppnerbarker_inspiringlearning001.jpg" alt="Community Event Series" loading="lazy">
+                        <div class="project-card__overlay">
+                            <span class="project-card__category">Event</span>
+                            <h3 class="project-card__title">Community Event Series</h3>
+                            <p class="project-card__description">
+                                Multi-event series bringing together outdoor enthusiasts for meaningful adventures and skill-sharing workshops.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="project-card__content">
+                        <div class="project-card__tags">
+                            <span class="tag">Event Planning</span>
+                            <span class="tag">Community Engagement</span>
+                            <span class="tag">Workshop Design</span>
+                        </div>
+                        <a href="projects/community-events.html" class="project-card__link">View Case Study</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="section" style="background: var(--color-surface);">
+        <div class="container text-center">
+            <div class="animate-on-scroll fade-in-up">
+                <h2>Interested in Collaborating?</h2>
+                <p class="text-large" style="max-width: 600px; margin: 0 auto var(--space-xl);">
+                    I'm always excited to work on projects that bring people together and create meaningful impact.
+                </p>
+                <div style="display: flex; gap: var(--space-md); justify-content: center; flex-wrap: wrap;">
+                    <a href="contact.html" class="btn btn-primary">Start a Conversation</a>
+                    <a href="about.html" class="btn btn-secondary">Learn More About Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background: var(--color-text); color: white; padding: var(--space-xl) 0;">
+        <div class="container">
+            <div class="flex justify-between items-center" style="flex-wrap: wrap; gap: var(--space-md);">
+                <div>
+                    <p style="margin: 0; color: rgba(255,255,255,0.8);">
+                        © 2024 Keppner Barker. Built with purpose.
+                    </p>
+                </div>
+                <div style="display: flex; gap: var(--space-md);">
+                    <a href="https://linkedin.com/in/keppnerbarker" target="_blank"
+                       style="color: rgba(255,255,255,0.8); text-decoration: none;">LinkedIn</a>
+                    <a href="https://github.com/keppnerbarker7" target="_blank"
+                       style="color: rgba(255,255,255,0.8); text-decoration: none;">GitHub</a>
+                    <a href="mailto:hello@keppnerbarker.com"
+                       style="color: rgba(255,255,255,0.8); text-decoration: none;">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/filter.js"></script>
+</body>
+</html>

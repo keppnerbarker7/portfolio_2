@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Let's Build Something Meaningful | Keppner Barker</title>
+    <meta name="description" content="Ready to collaborate on meaningful projects? Let's discuss how we can build products, create experiences, or capture stories that bring people together.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-primary" id="main-nav">
+        <div class="nav-container">
+            <a href="/" class="nav-logo">KB</a>
+            <ul class="nav-menu">
+                <li><a href="/">Home</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="visuals.html">Visuals</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="nav-progress" id="scroll-progress"></div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="nav-menu-mobile" id="nav-menu-mobile">
+        <ul class="nav-menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="visuals.html">Visuals</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" style="padding: 120px 0 var(--space-2xl);">
+        <div class="container text-center">
+            <h1 class="animate-on-scroll fade-in-up">Let's Build Something Meaningful</h1>
+            <p class="text-large animate-on-scroll fade-in-up stagger-1" style="max-width: 700px; margin: 0 auto var(--space-xl);">
+                Whether you're looking to build a product, create an experience, or capture a story,
+                I'm always excited to collaborate with people who share a passion for bringing ideas to life.
+            </p>
+        </div>
+    </section>
+
+    <!-- Contact Options -->
+    <section class="section">
+        <div class="container">
+            <div class="grid grid-3">
+                <div class="animate-on-scroll fade-in-up stagger-2" style="text-align: center; padding: var(--space-lg); background: var(--color-surface); border-radius: var(--border-radius); box-shadow: var(--shadow-sm);">
+                    <div style="width: 80px; height: 80px; background: var(--color-accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-md); color: white; font-size: var(--text-2xl);">
+                        📧
+                    </div>
+                    <h3>Email</h3>
+                    <p>For project inquiries, collaboration opportunities, or just saying hello.</p>
+                    <a href="mailto:hello@keppnerbarker.com" class="btn btn-primary">hello@keppnerbarker.com</a>
+                </div>
+
+                <div class="animate-on-scroll fade-in-up stagger-3" style="text-align: center; padding: var(--space-lg); background: var(--color-surface); border-radius: var(--border-radius); box-shadow: var(--shadow-sm);">
+                    <div style="width: 80px; height: 80px; background: var(--color-success); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-md); color: white; font-size: var(--text-2xl);">
+                        💼
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <p>Connect professionally and see what I'm working on in the product and strategy space.</p>
+                    <a href="https://linkedin.com/in/keppnerbarker" target="_blank" class="btn btn-secondary">Connect on LinkedIn</a>
+                </div>
+
+                <div class="animate-on-scroll fade-in-up stagger-4" style="text-align: center; padding: var(--space-lg); background: var(--color-surface); border-radius: var(--border-radius); box-shadow: var(--shadow-sm);">
+                    <div style="width: 80px; height: 80px; background: var(--color-warning); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto var(--space-md); color: white; font-size: var(--text-2xl);">
+                        📸
+                    </div>
+                    <h3>Instagram</h3>
+                    <p>Follow along for adventure photography and behind-the-scenes looks at projects.</p>
+                    <a href="https://instagram.com/keppnerbarker" target="_blank" class="btn btn-ghost">@keppnerbarker</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="section" style="background: var(--color-surface);">
+        <div class="container">
+            <div class="container-narrow">
+                <div class="text-center animate-on-scroll fade-in-up" style="margin-bottom: var(--space-xl);">
+                    <h2>Start a Conversation</h2>
+                    <p class="text-large">
+                        Tell me about your project, idea, or challenge. I'd love to learn how we might work together.
+                    </p>
+                </div>
+
+                <form class="animate-on-scroll fade-in-up stagger-2" id="contact-form" style="background: white; padding: var(--space-xl); border-radius: var(--border-radius-lg); box-shadow: var(--shadow-md);">
+                    <div class="grid grid-2" style="margin-bottom: var(--space-lg);">
+                        <div>
+                            <label for="name" style="display: block; font-weight: 600; margin-bottom: var(--space-xs); color: var(--color-text);">
+                                Name *
+                            </label>
+                            <input type="text" id="name" name="name" required
+                                   style="width: 100%; padding: var(--space-sm); border: 2px solid var(--color-border); border-radius: var(--border-radius-sm); font-size: var(--text-base); font-family: var(--font-primary); transition: border-color var(--transition-base);">
+                        </div>
+                        <div>
+                            <label for="email" style="display: block; font-weight: 600; margin-bottom: var(--space-xs); color: var(--color-text);">
+                                Email *
+                            </label>
+                            <input type="email" id="email" name="email" required
+                                   style="width: 100%; padding: var(--space-sm); border: 2px solid var(--color-border); border-radius: var(--border-radius-sm); font-size: var(--text-base); font-family: var(--font-primary); transition: border-color var(--transition-base);">
+                        </div>
+                    </div>
+
+                    <div style="margin-bottom: var(--space-lg);">
+                        <label for="project-type" style="display: block; font-weight: 600; margin-bottom: var(--space-xs); color: var(--color-text);">
+                            Project Type
+                        </label>
+                        <select id="project-type" name="project-type"
+                                style="width: 100%; padding: var(--space-sm); border: 2px solid var(--color-border); border-radius: var(--border-radius-sm); font-size: var(--text-base); font-family: var(--font-primary); background: white; transition: border-color var(--transition-base);">
+                            <option value="">Select a project type...</option>
+                            <option value="product-strategy">Product Strategy & Management</option>
+                            <option value="ux-design">UX/UI Design</option>
+                            <option value="event-planning">Event Planning & Production</option>
+                            <option value="photography">Photography & Storytelling</option>
+                            <option value="consulting">Strategy Consulting</option>
+                            <option value="collaboration">General Collaboration</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+
+                    <div style="margin-bottom: var(--space-lg);">
+                        <label for="budget" style="display: block; font-weight: 600; margin-bottom: var(--space-xs); color: var(--color-text);">
+                            Project Budget (Optional)
+                        </label>
+                        <select id="budget" name="budget"
+                                style="width: 100%; padding: var(--space-sm); border: 2px solid var(--color-border); border-radius: var(--border-radius-sm); font-size: var(--text-base); font-family: var(--font-primary); background: white; transition: border-color var(--transition-base);">
+                            <option value="">Select a budget range...</option>
+                            <option value="under-5k">Under $5,000</option>
+                            <option value="5k-15k">$5,000 - $15,000</option>
+                            <option value="15k-30k">$15,000 - $30,000</option>
+                            <option value="30k-plus">$30,000+</option>
+                            <option value="equity">Equity/Partnership</option>
+                            <option value="discuss">Let's discuss</option>
+                        </select>
+                    </div>
+
+                    <div style="margin-bottom: var(--space-lg);">
+                        <label for="timeline" style="display: block; font-weight: 600; margin-bottom: var(--space-xs); color: var(--color-text);">
+                            Timeline
+                        </label>
+                        <select id="timeline" name="timeline"
+                                style="width: 100%; padding: var(--space-sm); border: 2px solid var(--color-border); border-radius: var(--border-radius-sm); font-size: var(--text-base); font-family: var(--font-primary); background: white; transition: border-color var(--transition-base);">
+                            <option value="">Select a timeline...</option>
+                            <option value="asap">ASAP</option>
+                            <option value="1-month">Within 1 month</option>
+                            <option value="3-months">Within 3 months</option>
+                            <option value="6-months">Within 6 months</option>
+                            <option value="flexible">Flexible</option>
+                            <option value="exploring">Just exploring</option>
+                        </select>
+                    </div>
+
+                    <div style="margin-bottom: var(--space-xl);">
+                        <label for="message" style="display: block; font-weight: 600; margin-bottom: var(--space-xs); color: var(--color-text);">
+                            Tell me about your project *
+                        </label>
+                        <textarea id="message" name="message" rows="6" required
+                                  placeholder="What challenge are you trying to solve? What's your vision for the project? What questions do you have?"
+                                  style="width: 100%; padding: var(--space-sm); border: 2px solid var(--color-border); border-radius: var(--border-radius-sm); font-size: var(--text-base); font-family: var(--font-primary); resize: vertical; transition: border-color var(--transition-base);"></textarea>
+                    </div>
+
+                    <div style="text-align: center;">
+                        <button type="submit" class="btn btn-primary" style="min-width: 200px;">
+                            Send Message
+                        </button>
+                        <p style="margin-top: var(--space-md); font-size: var(--text-sm); color: var(--color-text-muted);">
+                            I'll get back to you within 24 hours.
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section">
+        <div class="container-narrow">
+            <div class="text-center animate-on-scroll fade-in-up" style="margin-bottom: var(--space-xl);">
+                <h2>Frequently Asked Questions</h2>
+            </div>
+
+            <div class="animate-on-scroll fade-in-up stagger-2">
+                <div style="margin-bottom: var(--space-lg); padding: var(--space-lg); background: var(--color-surface); border-radius: var(--border-radius); border-left: 4px solid var(--color-accent);">
+                    <h4 style="margin-bottom: var(--space-sm); color: var(--color-text);">What types of projects do you work on?</h4>
+                    <p style="margin: 0;">
+                        I specialize in product strategy and management, UX/UI design, event planning, and photography.
+                        I'm particularly drawn to projects that bring people together and create meaningful experiences —
+                        whether that's through digital products, community events, or visual storytelling.
+                    </p>
+                </div>
+
+                <div style="margin-bottom: var(--space-lg); padding: var(--space-lg); background: var(--color-surface); border-radius: var(--border-radius); border-left: 4px solid var(--color-success);">
+                    <h4 style="margin-bottom: var(--space-sm); color: var(--color-text);">How do you approach new projects?</h4>
+                    <p style="margin: 0;">
+                        Every project starts with deep research and understanding. I believe in preparation, curiosity, and courage —
+                        spending time to understand your users, market, and constraints before jumping into solutions.
+                        My process is collaborative and iterative, with regular check-ins and validation points.
+                    </p>
+                </div>
+
+                <div style="margin-bottom: var(--space-lg); padding: var(--space-lg); background: var(--color-surface); border-radius: var(--border-radius); border-left: 4px solid var(--color-warning);">
+                    <h4 style="margin-bottom: var(--space-sm); color: var(--color-text);">What's your availability like?</h4>
+                    <p style="margin: 0;">
+                        I'm currently accepting new projects for Q2 2024 and beyond. For smaller projects or consulting engagements,
+                        I can often start within 2-4 weeks. Larger product or event projects typically require 4-8 weeks lead time
+                        for proper planning and research.
+                    </p>
+                </div>
+
+                <div style="margin-bottom: var(--space-lg); padding: var(--space-lg); background: var(--color-surface); border-radius: var(--border-radius); border-left: 4px solid var(--color-accent-warm);">
+                    <h4 style="margin-bottom: var(--space-sm); color: var(--color-text);">Do you work with startups or just established companies?</h4>
+                    <p style="margin: 0;">
+                        I love working with both! Startups often need strategic thinking and scrappy execution, while established
+                        companies might need fresh perspectives and innovation. I'm comfortable with equity arrangements for
+                        early-stage companies and traditional project-based work for established organizations.
+                    </p>
+                </div>
+
+                <div style="padding: var(--space-lg); background: var(--color-surface); border-radius: var(--border-radius); border-left: 4px solid var(--color-accent);">
+                    <h4 style="margin-bottom: var(--space-sm); color: var(--color-text);">Can we start with a smaller project to test the waters?</h4>
+                    <p style="margin: 0;">
+                        Absolutely! I often recommend starting with a focused strategy session, user research sprint, or design audit.
+                        This gives us both a chance to understand how we work together before committing to larger engagements.
+                        Many of my best long-term partnerships started with small exploratory projects.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Message -->
+    <div id="form-success" style="display: none; position: fixed; top: 100px; left: 50%; transform: translateX(-50%); background: var(--color-success); color: white; padding: var(--space-lg); border-radius: var(--border-radius); box-shadow: var(--shadow-lg); z-index: var(--z-modal);">
+        <p style="margin: 0; font-weight: 600;">✓ Message sent successfully! I'll get back to you within 24 hours.</p>
+    </div>
+
+    <!-- Footer -->
+    <footer style="background: var(--color-text); color: white; padding: var(--space-xl) 0;">
+        <div class="container">
+            <div class="flex justify-between items-center" style="flex-wrap: wrap; gap: var(--space-md);">
+                <div>
+                    <p style="margin: 0; color: rgba(255,255,255,0.8);">
+                        © 2024 Keppner Barker. Built with purpose.
+                    </p>
+                </div>
+                <div style="display: flex; gap: var(--space-md);">
+                    <a href="https://linkedin.com/in/keppnerbarker" target="_blank"
+                       style="color: rgba(255,255,255,0.8); text-decoration: none;">LinkedIn</a>
+                    <a href="https://github.com/keppnerbarker7" target="_blank"
+                       style="color: rgba(255,255,255,0.8); text-decoration: none;">GitHub</a>
+                    <a href="mailto:hello@keppnerbarker.com"
+                       style="color: rgba(255,255,255,0.8); text-decoration: none;">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>

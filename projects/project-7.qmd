@@ -1,0 +1,171 @@
+---
+title: "Tool Locker"
+date: "2025-10-01"
+categories: [GitHub, Next.js, Supabase, Stripe]
+---
+
+## Overview
+
+Tool Locker is a self-service tool rental platform that lets people rent high-quality tools (pressure washers, tillers, aerators, tile saws, etc.) without staff or store lines. Users book in the app, receive a time-bound access code, pick up from a secured locker/storage unit, and return when done.
+
+The primary purpose of this app is to:
+
+- Give homeowners, renters, and part-time handypeople affordable, local access to tools they only need a few times a year
+- Eliminate friction: no counter, no phone tag, no deposits drama
+- Provide reliable quality (maintained inventory, condition photos, clear pricing)
+- Make operations scalable with unmanned pickup/return and smart scheduling
+
+## Live Product Demo
+
+<div class="d-flex justify-content-center gap-3 my-4">
+  <!-- Open App button -->
+  <a class="btn btn-primary d-inline-flex align-items-center"
+     href="https://tool-rental-self.vercel.app/"
+     target="_blank" rel="noopener"
+     aria-label="Open live app">
+    <i class="fa-solid fa-window-restore me-2" aria-hidden="true"></i>
+    Open App in New Tab
+  </a>
+
+  <!-- GitHub Source button -->
+  <a class="btn btn-outline-dark d-inline-flex align-items-center"
+     href="https://github.com/keppnerbarker7/tool_rental"
+     target="_blank" rel="noopener"
+     aria-label="Open GitHub source">
+    <i class="fa-brands fa-github me-2" aria-hidden="true"></i>
+    View source on GitHub
+  </a>
+</div>
+
+<iframe src="https://tool-rental-self.vercel.app/"
+        style="width:100%; height:900px; border:none;"
+        allowfullscreen>
+</iframe>
+
+## Technical Details
+
+Framework/Stack: Next.js (App Router) + TypeScript, Tailwind CSS
+
+Backend: Supabase (Postgres, Row Level Security), Server Actions / API routes
+
+Auth: Clerk (users, KYC/ID-flag ready)
+
+Payments: Stripe (holds, charges, adjustments, refunds)
+
+Storage: Supabase Storage (tool photos, pickup/return condition photos)
+
+Lock Access: Vendor API for time-bound PIN codes (avoid BLE for MVP)
+
+Deployment: Vercel
+
+Tools Used:
+- Claude Code and ChatGPT for development assistance
+- GitHub for version control
+- Vercel for hosting and previews
+- Supabase for backend and database
+
+## Product Requirements Document
+
+---
+title: "Tool Locker — MVP PRD"
+author: "Keppner Barker"
+format:
+  html:
+    toc: true
+    toc-depth: 3
+    number-sections: false
+---
+
+# Product Vision
+Tool Locker makes renting pro-grade tools as simple as renting a scooter: fast online booking, code-based access, and transparent pricing—designed for everyday DIYers and busy small operators, not just contractors.
+
+# Problem Statement
+- People need expensive/specialty tools occasionally (3–5×/year) but don't want to buy, store, or maintain them.
+- Traditional rental stores are optimized for contractors: limited hours, deposits, counter wait times, friction.
+- Peer-to-peer listings are unreliable and inconsistent (no-shows, poor quality, unclear policies).
+- There's no trusted, self-service local option that's convenient, affordable, and consistent.
+
+# Target Users
+- **Primary:** First-time homeowners / renters and weekend DIYers (ages ~22–40) within 10–15 minutes of a locker.
+- **Secondary:** Part-time handypeople and small trades who only need occasional access to specialty tools.
+
+# Goals & Non-Goals
+
+## Goals (MVP)
+- Let users browse local inventory, see price, specs, and availability.
+- Book a tool for specific dates; auto-calculate pricing and send time-bound access code.
+- Capture pickup/return condition photos to reduce disputes.
+- Track inventory availability and rental history; block out dates automatically.
+- Handle payments (hold/charge/refund) and basic late/damage workflows.
+
+## Non-Goals (MVP)
+- No Bluetooth lock control (PIN/API only).
+- No delivery/collection service.
+- No peer-to-peer owner marketplace (centralized inventory only).
+- No complex tiered pricing by hour; day-based pricing only.
+
+# Core User Stories
+1. As a user, I can see what tools are available near me with pricing and specs.
+2. As a user, I can book a tool for specific dates and receive a pickup code and instructions.
+3. As a user, I can upload condition photos at pickup and return to protect my deposit.
+4. As an admin, I can add/edit tools, prices, photos, and locations.
+5. As an admin, I can see upcoming bookings, utilization, and maintenance holds.
+6. As an admin, I can flag damage/late returns and issue adjustments/refunds.
+
+# Features & Scope
+
+## Must-Have (MVP)
+- **Inventory:** Tool cards with photos, specs, daily price, replacement value, location.
+- **Availability:** Date picker with conflict checks; automatic blackout insertion on booking.
+- **Booking & Payments:** Stripe hold/charge; email/SMS confirmations; receipts.
+- **Access:** Auto-generated time-bound PIN and clear pickup/return instructions.
+- **Condition Capture:** Photo upload (pickup & return), timestamped to the rental.
+- **Admin:** Create tools, set pricing, upload photos, block out windows (maintenance), view rentals/events.
+- **Notifications:** Booking confirmed, pickup reminder, return reminder, late notice.
+
+## Nice-to-Have (Future)
+- **Subscriptions** for discounted day-rates or priority holds.
+- **Bundles** (e.g., "Patio Project Kit": pressure washer + surface cleaner).
+- **Dynamic pricing** (seasonal/weekend).
+- **Damage detection assistance** (photo comparison hints).
+- **Native wrapper** (BLE, geofencing) if/when needed.
+- **Delivery add-on** (third-party) after MVP.
+
+# Success Metrics
+- **Activation:** ≥ 50% of new users complete KYC (if used) and make first booking within 14 days.
+- **Conversion:** ≥ 3% of inventory views → bookings.
+- **Utilization:** ≥ 35% monthly utilization for top SKUs (pressure washer, tiller).
+- **Ops:** ≤ 5% bookings flagged for disputes; ≤ 2% late returns beyond 24h.
+- **Retention:** ≥ 25% of renters make a second booking within 90 days.
+
+# Risks & Assumptions
+- **Facility rules/insurance:** Some storage facilities restrict commercial use—need approved locations/insurance.
+- **Liability & safety:** Clear terms, instructions, and condition photos reduce risk but don't eliminate it.
+- **Seasonality:** Lawn/landscaping tools spike seasonally—plan inventory and pricing accordingly.
+- **Theft/damage:** Minimized via access logs, deposits/holds, and photo evidence; still a cost center.
+- **Demand pockets:** Works best in dense areas within a 10–15 minute drive of lockers.
+
+# Launch Strategy
+- Web + PWA MVP (no app store friction).
+- Start with 1–2 lockers near high-DIY neighborhoods (Orem/Provo).
+- Seed demand by cross-posting to Facebook Marketplace/KSL with "Book on our site."
+- Intro $5 off first rental and referral credits.
+- Validate top SKUs (pressure washer, tiller, aerator, tile saw), then expand.
+- Gather NPS + post-rental feedback to refine ops and inventory.
+
+# MVP Tech Notes (suggested)
+- **Stack:** Next.js + TypeScript, Tailwind, shadcn/ui; Supabase (Postgres/RLS); Clerk; Stripe; Lock vendor API (PIN).
+- **Key Models:** users (mirror of Clerk for business status flags), locations (storage units/lockers), tools, tool_images, tool_availability (blocked ranges inc. bookings/maintenance), rentals (bookings; pricing snapshot; timestamps; access code), rental_events (audit trail; photos), payment_transactions (Stripe refs; charges/holds/refunds), maintenance_records (downtime, cost).
+- **Ops:** Server Actions for booking; Stripe webhooks; lock vendor webhook for code lifecycle; email/SMS via Resend/Twilio.
+
+# Open Questions
+- Deposit strategy: preauth hold vs. charge + refund? Thresholds by SKU?
+- Late policy: Grace period? Flat late fee vs. additional day rate?
+- KYC: Require ID verification from day one or just for higher-risk SKUs?
+- Damage adjudication: Who reviews? What's the SLA and doc standard?
+- Multi-locker routing: Allow pickup and return to different lockers (future)?
+- Insurance: What coverage do we carry vs. pass to renters?
+
+---
+
+**Tagline (working):** *"Pro tools. Local pickup. No counter."*

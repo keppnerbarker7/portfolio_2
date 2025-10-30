@@ -22,7 +22,14 @@ title: "Welcome to My Product Management Portfolio"
 ::: {.g-col-12 .g-col-md-6 .card}
 
 ### [DormChef](projects/project-1.qmd)
-DormChef is a simple, social meal-planning app that helps college students cook affordable, healthy meals in tiny kitchens by sharing and organizing recipes with friends.  
+DormChef is a simple, social meal-planning app that helps college students cook affordable, healthy meals in tiny kitchens by sharing and organizing recipes with friends.
+
+:::
+
+::: {.g-col-12 .g-col-md-6 .card}
+
+### [Tool Locker](projects/project-7.qmd)
+A self-service tool rental platform that lets DIYers and homeowners rent pro-grade tools with code-based access—no counter, no hassle, just affordable tools when you need them.
 
 :::
 

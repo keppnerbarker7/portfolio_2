@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DormChef - Social Meal Planning App | Keppner Barker</title>
+    <meta name="description" content="Case study: How I designed and built DormChef, a social meal-planning app helping college students cook affordable, healthy meals in tiny kitchens.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/animations.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="../images/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav-primary" id="main-nav">
+        <div class="nav-container">
+            <a href="../" class="nav-logo">KB</a>
+            <ul class="nav-menu">
+                <li><a href="../">Home</a></li>
+                <li><a href="../work.html" class="active">Work</a></li>
+                <li><a href="../visuals.html">Visuals</a></li>
+                <li><a href="../about.html">About</a></li>
+                <li><a href="../contact.html">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <div class="nav-progress" id="scroll-progress"></div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="nav-menu-mobile" id="nav-menu-mobile">
+        <ul class="nav-menu">
+            <li><a href="../">Home</a></li>
+            <li><a href="../work.html">Work</a></li>
+            <li><a href="../visuals.html">Visuals</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Case Study Hero -->
+    <header class="case-study__hero">
+        <div class="container">
+            <div class="case-study__meta animate-on-scroll fade-in-up">
+                <span>Product Design</span>
+                <span>2024</span>
+            </div>
+            <h1 class="case-study__title animate-on-scroll fade-in-up stagger-1">DormChef</h1>
+            <p class="case-study__subtitle animate-on-scroll fade-in-up stagger-2">
+                Social meal-planning app helping college students cook affordable, healthy meals in tiny kitchens by sharing and organizing recipes with friends.
+            </p>
+        </div>
+    </header>
+
+    <!-- Case Study Content -->
+    <main class="case-study__content">
+        <div class="container">
+            <div class="case-study__grid">
+                <!-- Sidebar -->
+                <aside class="case-study__sidebar">
+                    <div class="case-study__details animate-on-scroll fade-in-left">
+                        <h3>Project Details</h3>
+                        <dl>
+                            <dt>Role</dt>
+                            <dd>Product Manager, UX Designer</dd>
+                            <dt>Timeline</dt>
+                            <dd>3 months (Jan - Mar 2024)</dd>
+                            <dt>Team</dt>
+                            <dd>Solo project with user research</dd>
+                            <dt>Tools</dt>
+                            <dd>Figma, React Native, Firebase</dd>
+                            <dt>Status</dt>
+                            <dd>MVP launched, iterating</dd>
+                        </dl>
+                    </div>
+                </aside>
+
+                <!-- Main Content -->
+                <article class="case-study__body">
+                    <!-- Problem Section -->
+                    <section class="case-study__section animate-on-scroll fade-in-up">
+                        <h2>The Challenge</h2>
+                        <p class="text-large">
+                            College students want to eat healthy and save money, but cooking in dorm kitchens is intimidating, expensive, and isolating. Most meal-planning apps are built for families with full kitchens, not 19-year-olds with a hot plate and no cooking experience.
+                        </p>
+                        <p>
+                            After interviewing 40+ college students, I discovered that the biggest barriers weren't just about recipes or budgeting — they were about <strong>confidence, community, and equipment constraints</strong>.
+                        </p>
+
+                        <div style="background: var(--color-surface); padding: var(--space-lg); border-radius: var(--border-radius); margin: var(--space-xl) 0; border-left: 4px solid var(--color-accent);">
+                            <h4>Key Insights from User Research</h4>
+                            <ul>
+                                <li><strong>87% of students</strong> said they wanted to cook more but felt overwhelmed</li>
+                                <li><strong>73% of students</strong> wished they could cook with friends more often</li>
+                                <li><strong>91% of students</strong> had limited kitchen equipment (hot plate, mini fridge, microwave)</li>
+                                <li><strong>65% of students</strong> said existing meal apps were "too complicated" or "not for college"</li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <!-- Solution Section -->
+                    <section class="case-study__section animate-on-scroll fade-in-up">
+                        <h2>The Solution</h2>
+                        <p class="text-large">
+                            DormChef is a social meal-planning app designed specifically for college students living in dorms. It combines recipe discovery, meal planning, and social cooking to make healthy eating accessible, affordable, and fun.
+                        </p>
+
+                        <!-- Live Demo Section -->
+                        <div style="background: var(--color-surface); border-radius: var(--border-radius-lg); padding: var(--space-xl); margin: var(--space-xl) 0; text-align: center; border: 2px solid var(--color-primary);">
+                            <h3 style="margin-bottom: var(--space-lg); color: var(--color-primary);">🚀 Try the Live App</h3>
+                            <div style="margin-bottom: var(--space-lg);">
+                                <a href="https://dormchef-mvp.vercel.app/" target="_blank" class="btn btn-primary" style="margin-right: var(--space-md);">Open in New Tab</a>
+                                <a href="https://github.com/keppnerbarker7/dormchef_mvp" target="_blank" class="btn btn-secondary">View Source Code</a>
+                            </div>
+                            <div style="background: white; border-radius: var(--border-radius); padding: var(--space-md); box-shadow: var(--shadow-lg);">
+                                <iframe
+                                    src="https://dormchef-mvp.vercel.app/"
+                                    width="100%"
+                                    height="600"
+                                    style="border: none; border-radius: var(--border-radius);"
+                                    title="DormChef Live Demo"
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                            <p style="margin-top: var(--space-md); color: var(--color-text-muted);">
+                                Interactive demo above - try adding recipes, planning meals, and exploring the social features
+                            </p>
+                        </div>
+
+                        <h3>Core Features</h3>
+                        <div class="grid grid-2" style="margin: var(--space-lg) 0;">
+                            <div style="background: var(--color-surface); padding: var(--space-lg); border-radius: var(--border-radius);">
+                                <h4>🍳 Dorm-Friendly Recipes</h4>
+                                <p>Curated recipes that only require basic equipment: hot plate, microwave, and mini fridge. Each recipe includes equipment tags and difficulty levels.</p>
+                            </div>
+                            <div style="background: var(--color-surface); padding: var(--space-lg); border-radius: var(--border-radius);">
+                                <h4>👥 Social Meal Planning</h4>
+                                <p>Plan meals with roommates and friends. Share grocery lists, coordinate cooking times, and discover what others are making.</p>
+                            </div>
+                            <div style="background: var(--color-surface); padding: var(--space-lg); border-radius: var(--border-radius);">
+                                <h4>💰 Budget Tracking</h4>
+                                <p>Track spending per meal and per week. Smart grocery list optimization to minimize food waste and maximize savings.</p>
+                            </div>
+                            <div style="background: var(--color-surface); padding: var(--space-lg); border-radius: var(--border-radius);">
+                                <h4>📚 Cooking Education</h4>
+                                <p>Step-by-step video tutorials for basic cooking techniques. "Cooking 101" content specifically for beginner student chefs.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Process Section -->
+                    <section class="case-study__section animate-on-scroll fade-in-up">
+                        <h2>Design Process</h2>
+
+                        <h3>1. User Research & Discovery</h3>
+                        <p>
+                            I spent 3 weeks conducting interviews with college students across 5 universities. I visited dorm kitchens, observed cooking sessions, and analyzed existing meal-planning apps to understand the unique constraints of the college market.
+                        </p>
+
+                        <img src="../assets/images/projects/dormchef-research.jpg" alt="User Research Process" class="case-study__image">
+
+                        <h3>2. Ideation & Concept Development</h3>
+                        <p>
+                            Based on research insights, I developed the concept of "social cooking for students." The key insight was that cooking is more enjoyable and less intimidating when done with friends, but existing apps treated meal planning as an individual activity.
+                        </p>
+
+                        <h3>3. Wireframing & Prototyping</h3>
+                        <p>
+                            I created low-fidelity wireframes focusing on three core user journeys: discovering recipes, planning meals with friends, and tracking budgets. The interface needed to be simple enough for busy students but powerful enough to handle group coordination.
+                        </p>
+
+                        <img src="../assets/images/projects/dormchef-wireframes.jpg" alt="Wireframing Process" class="case-study__image">
+
+                        <h3>4. Visual Design & Branding</h3>
+                        <p>
+                            The visual design needed to feel approachable and energetic — more like a social app than a productivity tool. I chose a warm color palette inspired by fresh ingredients and created playful illustrations for cooking techniques.
+                        </p>
+
+                        <img src="../assets/images/projects/dormchef-visual-design.jpg" alt="Visual Design System" class="case-study__image">
+                    </section>
+
+                    <!-- Results Section -->
+                    <section class="case-study__section animate-on-scroll fade-in-up">
+                        <h2>Results & Impact</h2>
+
+                        <div class="grid grid-3" style="margin: var(--space-lg) 0;">
+                            <div style="text-align: center; background: var(--color-surface); padding: var(--space-lg); border-radius: var(--border-radius);">
+                                <h3 style="font-size: var(--text-4xl); color: var(--color-accent); margin-bottom: var(--space-sm);" data-count="250">0</h3>
+                                <p style="margin: 0; font-weight: 600;">Beta Users</p>
+                                <p style="margin: 0; font-size: var(--text-sm); color: var(--color-text-muted);">Across 3 universities</p>
+                            </div>
+                            <div style="text-align: center; background: var(--color-surface); padding: var(--space-lg); border-radius: var(--border-radius);">
+                                <h3 style="font-size: var(--text-4xl); color: var(--color-success); margin-bottom: var(--space-sm);" data-count="89">0</h3>
+                                <p style="margin: 0; font-weight: 600;">User Satisfaction</p>
+                                <p style="margin: 0; font-size: var(--text-sm); color: var(--color-text-muted);">Would recommend to friends</p>
+                            </div>
+                            <div style="text-align: center; background: var(--color-surface); padding: var(--space-lg); border-radius: var(--border-radius);">
+                                <h3 style="font-size: var(--text-4xl); color: var(--color-warning); margin-bottom: var(--space-sm);" data-count="65">0</h3>
+                                <p style="margin: 0; font-weight: 600;">Weekly Active Users</p>
+                                <p style="margin: 0; font-size: var(--text-sm); color: var(--color-text-muted);">Return rate after 30 days</p>
+                            </div>
+                        </div>
+
+                        <div style="background: var(--color-surface); padding: var(--space-lg); border-radius: var(--border-radius); margin: var(--space-xl) 0;">
+                            <h4>Key User Feedback</h4>
+                            <blockquote style="margin: var(--space-lg) 0; padding-left: var(--space-lg); border-left: 4px solid var(--color-accent); font-style: italic; color: var(--color-text-secondary);">
+                                "Finally, an app that gets college cooking! I've actually started cooking with my roommates 3x per week instead of just ordering pizza."
+                                <footer style="margin-top: var(--space-sm); font-style: normal; font-weight: 600; color: var(--color-text);">— Sarah, BYU Junior</footer>
+                            </blockquote>
+                            <blockquote style="margin: var(--space-lg) 0; padding-left: var(--space-lg); border-left: 4px solid var(--color-accent); font-style: italic; color: var(--color-text-secondary);">
+                                "The budget tracking is amazing. I'm saving like $40/week compared to my old eating habits, and the food is actually good."
+                                <footer style="margin-top: var(--space-sm); font-style: normal; font-weight: 600; color: var(--color-text);">— Marcus, UVU Sophomore</footer>
+                            </blockquote>
+                        </div>
+                    </section>
+
+                    <!-- Learnings Section -->
+                    <section class="case-study__section animate-on-scroll fade-in-up">
+                        <h2>Key Learnings</h2>
+
+                        <h3>1. Social Features Drive Engagement</h3>
+                        <p>
+                            The most successful users were those who invited friends to the app. Cooking together transformed meal planning from a chore into a social activity, leading to 3x higher retention rates.
+                        </p>
+
+                        <h3>2. Equipment Constraints Are Creative Constraints</h3>
+                        <p>
+                            Limiting recipes to basic dorm equipment wasn't a limitation — it was a feature. Users appreciated the clarity and felt confident they could actually make the recipes.
+                        </p>
+
+                        <h3>3. Students Want Education, Not Just Recipes</h3>
+                        <p>
+                            The cooking tutorial features had unexpectedly high engagement. Many students lacked basic cooking knowledge, and providing education alongside recipes built confidence and loyalty.
+                        </p>
+
+                        <h3>4. Mobile-First is Essential</h3>
+                        <p>
+                            Students primarily used the app while grocery shopping or in their dorm kitchens. The mobile experience needed to be flawless, with offline capabilities for recipes.
+                        </p>
+                    </section>
+
+                    <!-- Next Steps -->
+                    <section class="case-study__section animate-on-scroll fade-in-up">
+                        <h2>What's Next</h2>
+                        <p>
+                            Based on user feedback and usage data, I'm focusing on three key areas for DormChef's next iteration:
+                        </p>
+                        <ul>
+                            <li><strong>Campus Integration:</strong> Partnerships with university dining services and local grocery stores for special student pricing</li>
+                            <li><strong>AI Meal Suggestions:</strong> Smart recommendations based on dietary preferences, budget, and available ingredients</li>
+                            <li><strong>Community Features:</strong> Recipe sharing, cooking challenges, and campus cooking events</li>
+                        </ul>
+
+                        <div style="text-center; margin: var(--space-xl) 0;">
+                            <a href="https://dormchef-mvp.vercel.app/" target="_blank" class="btn btn-primary" style="margin-right: var(--space-md);">Try DormChef</a>
+                            <a href="https://github.com/keppnerbarker7/dormchef_mvp" target="_blank" class="btn btn-secondary">View Code</a>
+                        </div>
+                    </section>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <!-- Project Navigation -->
+    <section class="section" style="background: var(--color-surface);">
+        <div class="container">
+            <div class="flex justify-between items-center" style="flex-wrap: wrap; gap: var(--space-md);">
+                <div>
+                    <h4 style="margin-bottom: var(--space-xs);">Previous Project</h4>
+                    <a href="wasatch-water.html" style="font-size: var(--text-lg); color: var(--color-accent);">Wasatch Open Water</a>
+                </div>
+                <div style="text-align: center;">
+                    <a href="../work.html" class="btn btn-ghost">All Projects</a>
+                </div>
+                <div style="text-align: right;">
+                    <h4 style="margin-bottom: var(--space-xs);">Next Project</h4>
+                    <a href="broke-boys.html" style="font-size: var(--text-lg); color: var(--color-accent);">Broke Boys Half</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background: var(--color-text); color: white; padding: var(--space-xl) 0;">
+        <div class="container">
+            <div class="flex justify-between items-center" style="flex-wrap: wrap; gap: var(--space-md);">
+                <div>
+                    <p style="margin: 0; color: rgba(255,255,255,0.8);">
+                        © 2024 Keppner Barker. Built with purpose.
+                    </p>
+                </div>
+                <div style="display: flex; gap: var(--space-md);">
+                    <a href="https://linkedin.com/in/keppnerbarker" target="_blank"
+                       style="color: rgba(255,255,255,0.8); text-decoration: none;">LinkedIn</a>
+                    <a href="https://github.com/keppnerbarker7" target="_blank"
+                       style="color: rgba(255,255,255,0.8); text-decoration: none;">GitHub</a>
+                    <a href="mailto:hello@keppnerbarker.com"
+                       style="color: rgba(255,255,255,0.8); text-decoration: none;">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../js/main.js"></script>
+    <script src="../js/animations.js"></script>
+</body>
+</html>

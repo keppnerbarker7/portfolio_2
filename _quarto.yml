@@ -1,6 +1,10 @@
 project:
   type: website
   output-dir: _site
+  render:
+    - "*.qmd"
+    - "!NEW_STRUCTURE.md"
+    - "!IMPLEMENTATION_SUMMARY.md"
 
 website:
   title: ""
