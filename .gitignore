@@ -2,6 +2,7 @@
 /.quarto/
 /_book/
 /.quarto_cache/
+/_site/
 
 # R
 .Rproj.user
