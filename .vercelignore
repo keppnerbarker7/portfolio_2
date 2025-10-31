@@ -1,8 +1,0 @@
-.quarto
-.git
-.github
-.claude
-*.qmd
-_quarto.yml
-*.md
-!README.md
