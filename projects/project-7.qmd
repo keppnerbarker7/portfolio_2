@@ -44,25 +44,20 @@ The primary purpose of this app is to:
 
 ## Technical Details
 
-Framework/Stack: Next.js (App Router) + TypeScript, Tailwind CSS
+**Languages & Stack:**
+TypeScript, JavaScript, SQL, HTML, CSS, Next.js (App Router), React, Tailwind CSS
 
-Backend: Supabase (Postgres, Row Level Security), Server Actions / API routes
+**Backend & Database:**
+Supabase (PostgreSQL), Row Level Security, Server Actions
 
-Auth: Clerk (users, KYC/ID-flag ready)
+**Third-Party Services:**
+Clerk (Authentication), Stripe (Payments), Supabase Storage, Lock Vendor API
 
-Payments: Stripe (holds, charges, adjustments, refunds)
+**Development Tools:**
+Claude Code, ChatGPT, GitHub Codespaces, Git
 
-Storage: Supabase Storage (tool photos, pickup/return condition photos)
-
-Lock Access: Vendor API for time-bound PIN codes (avoid BLE for MVP)
-
-Deployment: Vercel
-
-Tools Used:
-- Claude Code and ChatGPT for development assistance
-- GitHub for version control
-- Vercel for hosting and previews
-- Supabase for backend and database
+**Deployment:**
+Vercel
 
 ## Product Requirements Document
 

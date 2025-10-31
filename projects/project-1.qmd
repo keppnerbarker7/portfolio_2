@@ -44,14 +44,14 @@ The primary purpose of this app is to:
 
 ## Technical Details
 
-Framework/Stack: HTML, CSS, JavaScript
+**Languages & Stack:**
+HTML, CSS, JavaScript
 
-Deployment: Vercel
+**Development Tools:**
+Claude Code, GitHub Codespaces, Git
 
-Tools Used:
-- Claude Code for development assistance
-- GitHub for version control
-- Vercel for hosting and deployment
+**Deployment:**
+Vercel
 
 ## Product Requirements Document
 
