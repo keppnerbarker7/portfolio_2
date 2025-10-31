@@ -55,7 +55,7 @@
 }
 
 #TOC a {
-  color: var(--accent-blue);
+  color: var(--text-light);
   text-decoration: none;
   transition: all 0.3s ease;
   font-size: 0.95rem;
@@ -66,7 +66,7 @@
 }
 
 #TOC a:hover {
-  color: #4A9BD8;
+  color: var(--accent-blue);
   padding-left: 0.5rem;
   font-weight: 500;
 }
@@ -121,21 +121,13 @@
   letter-spacing: -0.5px;
 }
 
-/* Hide default title block but keep hero titles visible */
+/* Hide default title block */
 .quarto-title-banner {
   display: none;
 }
 
-.quarto-title-block:not(:has(.hero-title)) {
+.quarto-title-block {
   display: none;
-}
-
-.hero-section .quarto-title-block {
-  display: block !important;
-  background: transparent !important;
-  border: none !important;
-  padding: 0 !important;
-  margin: 0 !important;
 }
 
 /* Modern Hero Section */
@@ -211,17 +203,15 @@
   text-align: left;
 }
 
-.hero-title {
+.hero-name {
   font-size: 6rem;
   font-weight: 900;
   color: var(--primary-navy);
   line-height: 1;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.5rem;
   margin-top: 0;
   letter-spacing: -2px;
   text-align: left;
-  display: block !important;
-  visibility: visible !important;
 }
 
 .hero-subtitle {
@@ -229,7 +219,7 @@
   font-weight: 600;
   color: var(--secondary-navy);
   margin-bottom: 1.5rem;
-  margin-top: 0.8rem;
+  margin-top: 0;
   line-height: 1.2;
   text-align: left;
 }
