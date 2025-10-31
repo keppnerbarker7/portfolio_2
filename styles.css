@@ -193,6 +193,8 @@
   margin-top: 0;
   letter-spacing: -2px;
   text-align: left;
+  display: block;
+  visibility: visible;
 }
 
 .hero-subtitle {
@@ -229,6 +231,7 @@
   margin-bottom: 0.5rem;
   box-shadow: 0 8px 16px rgba(255, 107, 107, 0.25);
   border: none;
+  white-space: nowrap;
 }
 
 .btn-primary-custom:hover {
@@ -251,6 +254,7 @@
   text-decoration: none;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 0.5rem;
+  white-space: nowrap;
 }
 
 .btn-secondary-custom:hover {
