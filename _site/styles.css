@@ -342,13 +342,13 @@ main {
 /* Featured Projects Section */
 main > h2,
 .featured-projects-section h2 {
-  font-size: 2.8rem;
-  font-weight: 800;
+  font-size: 3.5rem;
+  font-weight: 900;
   color: var(--primary-navy);
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   text-align: center;
-  letter-spacing: -0.5px;
+  letter-spacing: -1px;
   position: relative;
   display: inline-block;
   width: 100%;
@@ -358,13 +358,13 @@ main > h2::after,
 .featured-projects-section h2::after {
   content: '';
   position: absolute;
-  bottom: -0.5rem;
+  bottom: -0.75rem;
   left: 50%;
   transform: translateX(-50%);
-  width: 80px;
-  height: 4px;
+  width: 100px;
+  height: 5px;
   background: linear-gradient(90deg, var(--accent-beige) 0%, var(--accent-blue) 100%);
-  border-radius: 2px;
+  border-radius: 3px;
 }
 
 /* Section subtitle */

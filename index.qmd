@@ -34,7 +34,11 @@ title: ""
 
 :::
 
+::: {.featured-projects-section}
+
 ## Featured Projects
+
+::: {.grid}
 
 ::: {.g-col-12 .g-col-md-6 .card}
 
@@ -47,6 +51,10 @@ DormChef is a simple, social meal-planning app that helps college students cook 
 
 ### [Tool Locker](projects/project-7.qmd)
 A self-service tool rental platform that lets DIYers and homeowners rent pro-grade tools with code-based access—no counter, no hassle, just affordable tools when you need them.
+
+:::
+
+:::
 
 :::
 
