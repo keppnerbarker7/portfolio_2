@@ -9,6 +9,7 @@ project:
 website:
   title: ""
   favicon: images/favicon.svg
+  site-url: https://keppnerbarker7.github.io/portfolio_2
   navbar:
     background: primary
     left:
