@@ -42,55 +42,27 @@ The primary purpose of this app is to:
         allowfullscreen>
 </iframe>
 
-## Technical Skills & Tools
+## Technical Details
 
-**Programming Languages:**
-- TypeScript - Type-safe JavaScript for scalable applications
-- JavaScript (ES6+) - Modern web development
-- SQL - Database queries and data modeling
-- HTML5 & CSS3 - Semantic markup and styling
+Framework/Stack: Next.js (App Router) + TypeScript, Tailwind CSS
 
-**Frameworks & Libraries:**
-- Next.js (App Router) - React-based full-stack framework
-- React - Component-based UI development
-- Tailwind CSS - Utility-first CSS framework
-- shadcn/ui - Reusable component library
+Backend: Supabase (Postgres, Row Level Security), Server Actions / API routes
 
-**Backend & Database:**
-- Supabase - Backend-as-a-Service platform
-- PostgreSQL - Relational database
-- Row Level Security (RLS) - Database-level authorization
-- Server Actions - Server-side API routes
+Auth: Clerk (users, KYC/ID-flag ready)
 
-**Third-Party APIs & Services:**
-- Clerk - Authentication and user management
-- Stripe - Payment processing (holds, charges, refunds)
-- Supabase Storage - File storage and management
-- Lock Vendor API - Time-bound PIN code generation
-- Resend/Twilio - Email and SMS notifications
+Payments: Stripe (holds, charges, adjustments, refunds)
 
-**Development Tools:**
-- Claude Code - AI-powered development assistant
-- ChatGPT - Code generation and problem-solving
-- GitHub Codespaces - Cloud development environment
-- VS Code - Primary code editor
-- Git - Version control and collaboration
+Storage: Supabase Storage (tool photos, pickup/return condition photos)
 
-**Deployment & Infrastructure:**
-- Vercel - Hosting and continuous deployment
-- GitHub - Source code management
-- Vercel Previews - Branch-based deployment previews
+Lock Access: Vendor API for time-bound PIN codes (avoid BLE for MVP)
 
-**Key Skills Demonstrated:**
-- Full-stack web application development
-- Type-safe programming with TypeScript
-- Database design and management (PostgreSQL)
-- RESTful API design and implementation
-- Payment integration and financial transactions
-- Authentication and authorization systems
-- Cloud infrastructure and DevOps
-- AI-assisted development workflows
-- Responsive and accessible UI design
+Deployment: Vercel
+
+Tools Used:
+- Claude Code and ChatGPT for development assistance
+- GitHub for version control
+- Vercel for hosting and previews
+- Supabase for backend and database
 
 ## Product Requirements Document
 
