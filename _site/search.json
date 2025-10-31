@@ -21,11 +21,11 @@
     "text": "Live Product Demo\n\n   Open App in New Tab \n   View source on GitHub"
   },
   {
-    "objectID": "projects/project-7.html#technical-details",
-    "href": "projects/project-7.html#technical-details",
+    "objectID": "projects/project-7.html#technical-skills-tools",
+    "href": "projects/project-7.html#technical-skills-tools",
     "title": "Tool Locker — MVP PRD",
-    "section": "Technical Details",
-    "text": "Technical Details\nFramework/Stack: Next.js (App Router) + TypeScript, Tailwind CSS\nBackend: Supabase (Postgres, Row Level Security), Server Actions / API routes\nAuth: Clerk (users, KYC/ID-flag ready)\nPayments: Stripe (holds, charges, adjustments, refunds)\nStorage: Supabase Storage (tool photos, pickup/return condition photos)\nLock Access: Vendor API for time-bound PIN codes (avoid BLE for MVP)\nDeployment: Vercel\nTools Used: - Claude Code and ChatGPT for development assistance - GitHub for version control - Vercel for hosting and previews - Supabase for backend and database"
+    "section": "Technical Skills & Tools",
+    "text": "Technical Skills & Tools\nProgramming Languages: - TypeScript - Type-safe JavaScript for scalable applications - JavaScript (ES6+) - Modern web development - SQL - Database queries and data modeling - HTML5 & CSS3 - Semantic markup and styling\nFrameworks & Libraries: - Next.js (App Router) - React-based full-stack framework - React - Component-based UI development - Tailwind CSS - Utility-first CSS framework - shadcn/ui - Reusable component library\nBackend & Database: - Supabase - Backend-as-a-Service platform - PostgreSQL - Relational database - Row Level Security (RLS) - Database-level authorization - Server Actions - Server-side API routes\nThird-Party APIs & Services: - Clerk - Authentication and user management - Stripe - Payment processing (holds, charges, refunds) - Supabase Storage - File storage and management - Lock Vendor API - Time-bound PIN code generation - Resend/Twilio - Email and SMS notifications\nDevelopment Tools: - Claude Code - AI-powered development assistant - ChatGPT - Code generation and problem-solving - GitHub Codespaces - Cloud development environment - VS Code - Primary code editor - Git - Version control and collaboration\nDeployment & Infrastructure: - Vercel - Hosting and continuous deployment - GitHub - Source code management - Vercel Previews - Branch-based deployment previews\nKey Skills Demonstrated: - Full-stack web application development - Type-safe programming with TypeScript - Database design and management (PostgreSQL) - RESTful API design and implementation - Payment integration and financial transactions - Authentication and authorization systems - Cloud infrastructure and DevOps - AI-assisted development workflows - Responsive and accessible UI design"
   },
   {
     "objectID": "projects/project-7.html#product-requirements-document",
@@ -210,11 +210,11 @@
     "text": "Live Product Demo\n\n   Open App in New Tab \n   View source on GitHub"
   },
   {
-    "objectID": "projects/project-1.html#technical-details",
-    "href": "projects/project-1.html#technical-details",
+    "objectID": "projects/project-1.html#technical-skills-tools",
+    "href": "projects/project-1.html#technical-skills-tools",
     "title": "DormChef — MVP PRD",
-    "section": "Technical Details",
-    "text": "Technical Details\nFramework/Stack: HTML, CSS, JavaScript\nDeployment: Vercel\nTools Used: - Claude Code for development assistance - GitHub for version control - Vercel for hosting and deployment"
+    "section": "Technical Skills & Tools",
+    "text": "Technical Skills & Tools\nProgramming Languages: - HTML5 - CSS3 - JavaScript (ES6+)\nDevelopment Tools: - Claude Code - AI-powered coding assistant - GitHub Codespaces - Cloud development environment - VS Code - Primary code editor - Git - Version control\nDeployment & Infrastructure: - Vercel - Hosting and continuous deployment - GitHub - Source code management and collaboration\nKey Skills Demonstrated: - Front-end web development - Responsive design and mobile-first approach - Version control and Git workflows - AI-assisted development - Cloud deployment and DevOps"
   },
   {
     "objectID": "projects/project-1.html#product-requirements-document",

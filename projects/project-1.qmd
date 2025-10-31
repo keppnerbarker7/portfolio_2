@@ -42,16 +42,29 @@ The primary purpose of this app is to:
         allowfullscreen>
 </iframe>
 
-## Technical Details
+## Technical Skills & Tools
 
-Framework/Stack: HTML, CSS, JavaScript
+**Programming Languages:**
+- HTML5
+- CSS3
+- JavaScript (ES6+)
 
-Deployment: Vercel
+**Development Tools:**
+- Claude Code - AI-powered coding assistant
+- GitHub Codespaces - Cloud development environment
+- VS Code - Primary code editor
+- Git - Version control
 
-Tools Used:
-- Claude Code for development assistance
-- GitHub for version control
-- Vercel for hosting and deployment
+**Deployment & Infrastructure:**
+- Vercel - Hosting and continuous deployment
+- GitHub - Source code management and collaboration
+
+**Key Skills Demonstrated:**
+- Front-end web development
+- Responsive design and mobile-first approach
+- Version control and Git workflows
+- AI-assisted development
+- Cloud deployment and DevOps
 
 ## Product Requirements Document
 
