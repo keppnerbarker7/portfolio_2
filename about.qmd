@@ -1,34 +1,46 @@
 ---
-title: "About Me"
+title: ""
 ---
 
-::: {.hero-banner .text-center}
+::: {.about-hero-banner}
 
-<img src="images/India_2025-28.png" alt="add photo to /images" class="rounded-circle mb-3" width="160">
+<img src="images/headshot1.png" alt="Keppner Barker" class="about-profile-image">
 
-<h1>Keppner Barker</h1>
+<h1 class="about-name">Keppner Barker</h1>
+<p class="about-tagline">Product Manager | Strategy | Builder</p>
 
-<a href="https://linkedin.com/in/keppnerbarker" class="btn btn-outline-primary btn-sm" target="_blank">
+<div class="about-social-links">
+<a href="https://linkedin.com/in/keppnerbarker" class="about-btn" target="_blank">
   <i class="fab fa-linkedin"></i> LinkedIn
 </a>
-<a href="https://github.com/keppnerbarker7" class="btn btn-outline-primary btn-sm" target="_blank">
+<a href="https://github.com/keppnerbarker7" class="about-btn" target="_blank">
   <i class="fab fa-github"></i> GitHub
 </a>
+</div>
 
 :::
 
+::: {.about-content-section}
+
 ## Background
 
-I’m Keppner—a builder, connector, and adventurer at heart. Whether it’s organizing community races like the Broke Boys Half, launching entrepreneurial ventures from surfacing pickleball courts to strategy consulting projects, or diving into global markets through my work with Mangrove Collective, I thrive on creating experiences that bring people together and make a lasting impact. Beyond business, you’ll find me outdoors—running, climbing, skiing, or documenting the world through photography. I believe success comes from curiosity, grit, and prioritizing people over numbers, and I’m driven to use my skills in strategy, business, and storytelling to build ventures that matter.
+I'm Keppner—a builder, connector, and adventurer at heart. Whether it's organizing community races like the Broke Boys Half, launching entrepreneurial ventures from surfacing pickleball courts to strategy consulting projects, or diving into global markets through my work with Mangrove Collective, I thrive on creating experiences that bring people together and make a lasting impact. Beyond business, you'll find me outdoors—running, climbing, skiing, or documenting the world through photography. I believe success comes from curiosity, grit, and prioritizing people over numbers, and I'm driven to use my skills in strategy, business, and storytelling to build ventures that matter.
 
-### Education
+:::
+
+::: {.about-content-section}
+
+## Education
 
 - **BS Strategic Management**, Brigham Young University (2027)
 - **Relevant Coursework**: IS 110, IS 201, IS 303, STAT 121, ECON 110, MKTG 201, ENT 300, FIN 201
 - **Academic Achievements**: 3rd Place, Sorensen's Center Case Study for The Swig Company, LLC.
 
+:::
 
-### Experience
+::: {.about-content-section}
+
+## Experience
 
 #### Business Strategy Intern - Mangrove Collective
 *May 2025 - Present*
@@ -40,13 +52,15 @@ I’m Keppner—a builder, connector, and adventurer at heart. Whether it’s or
 #### Strategy and Marketing Intern - ROSE Fitness
 *Aug 2023 - Jan 2024*
 
-- Conducted comprehensive market research, including weekly focus groups and additional user data analysis, providing actionable
-insights leading to over a 40% increase in app downloads.
+- Conducted comprehensive market research, including weekly focus groups and additional user data analysis, providing actionable insights leading to over a 40% increase in app downloads.
 - Analyzed market research data, including focus group findings. Presented actionable recommendations to CEO.
-- Collaborated with the CEO to design and execute targeted social media campaigns based on market research insights, resulting in
-increased engagement and a 200% growth in followers within 4 months.
+- Collaborated with the CEO to design and execute targeted social media campaigns based on market research insights, resulting in increased engagement and a 200% growth in followers within 4 months.
 
-### Skills & Interests
+:::
+
+::: {.about-content-section}
+
+## Skills & Interests
 
 **Technical Skills**
 - Programming languages (Python, SQL)
@@ -62,8 +76,15 @@ increased engagement and a 200% growth in followers within 4 months.
 
 
 **Interests**
-I’m passionate about the outdoors—running, climbing, skiing, and backpacking are some of my favorite ways to recharge. I also enjoy photography and filmmaking, both as creative outlets and as tools for storytelling. Travel and adventure fuel my curiosity, while community events and shared experiences keep me grounded in what matters most: people.
 
-### What's Next
+I'm passionate about the outdoors—running, climbing, skiing, and backpacking are some of my favorite ways to recharge. I also enjoy photography and filmmaking, both as creative outlets and as tools for storytelling. Travel and adventure fuel my curiosity, while community events and shared experiences keep me grounded in what matters most: people.
 
-I’m pursuing opportunities in product management, where I can combine strategy, creativity, and execution to build products that truly serve people. My goal is to bring together my background in entrepreneurship, market research, and community building to craft solutions that solve real problems and create meaningful value. Long term, I see product management as the foundation for leading teams, shaping vision, and launching ventures that make an impact at scale.
+:::
+
+::: {.about-content-section}
+
+## What's Next
+
+I'm pursuing opportunities in product management, where I can combine strategy, creativity, and execution to build products that truly serve people. My goal is to bring together my background in entrepreneurship, market research, and community building to craft solutions that solve real problems and create meaningful value. Long term, I see product management as the foundation for leading teams, shaping vision, and launching ventures that make an impact at scale.
+
+:::

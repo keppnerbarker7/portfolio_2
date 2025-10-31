@@ -254,16 +254,44 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About Me",
+    "title": "\nKeppner Barker\n",
     "section": "",
-    "text": "LinkedIn    GitHub"
+    "text": "Product Manager | Strategy | Builder\n\n\n  LinkedIn    GitHub"
   },
   {
     "objectID": "about.html#background",
     "href": "about.html#background",
-    "title": "About Me",
+    "title": "\nKeppner Barker\n",
     "section": "Background",
-    "text": "Background\nI’m Keppner—a builder, connector, and adventurer at heart. Whether it’s organizing community races like the Broke Boys Half, launching entrepreneurial ventures from surfacing pickleball courts to strategy consulting projects, or diving into global markets through my work with Mangrove Collective, I thrive on creating experiences that bring people together and make a lasting impact. Beyond business, you’ll find me outdoors—running, climbing, skiing, or documenting the world through photography. I believe success comes from curiosity, grit, and prioritizing people over numbers, and I’m driven to use my skills in strategy, business, and storytelling to build ventures that matter.\n\nEducation\n\nBS Strategic Management, Brigham Young University (2027)\nRelevant Coursework: IS 110, IS 201, IS 303, STAT 121, ECON 110, MKTG 201, ENT 300, FIN 201\nAcademic Achievements: 3rd Place, Sorensen’s Center Case Study for The Swig Company, LLC.\n\n\n\nExperience\n\nBusiness Strategy Intern - Mangrove Collective\nMay 2025 - Present\n\nAnalyzing customer demand trends across 5 global markets for expansion based on size, growth, and brand alignment.\nEvaluating sales channels (DTC, retail, design partnerships) to identify most scalable and brand-aligned entry points.\nValidating marketing programs, generating marketing copy and creative tailoring branding to target global markets.\n\n\n\nStrategy and Marketing Intern - ROSE Fitness\nAug 2023 - Jan 2024\n\nConducted comprehensive market research, including weekly focus groups and additional user data analysis, providing actionable insights leading to over a 40% increase in app downloads.\nAnalyzed market research data, including focus group findings. Presented actionable recommendations to CEO.\nCollaborated with the CEO to design and execute targeted social media campaigns based on market research insights, resulting in increased engagement and a 200% growth in followers within 4 months.\n\n\n\n\nSkills & Interests\nTechnical Skills - Programming languages (Python, SQL) - Analytics tools (Tableau, Google Analytics) - Business & Strategy (Market sizing, channel strategy, TAM analysis, international market entry) - Marketing & Research (Focus groups, survey design, social media growth strategies, brand storytelling, customer insights) - Event Management (Race/event planning, budgeting, logistics, sponsorship)\nSoft Skills - Communication and presentation - Strategic thinking and problem-solving - Leadership (Hiring and managing teams, organizing large-scale events, teaching and mentoring)\nInterests I’m passionate about the outdoors—running, climbing, skiing, and backpacking are some of my favorite ways to recharge. I also enjoy photography and filmmaking, both as creative outlets and as tools for storytelling. Travel and adventure fuel my curiosity, while community events and shared experiences keep me grounded in what matters most: people.\n\n\nWhat’s Next\nI’m pursuing opportunities in product management, where I can combine strategy, creativity, and execution to build products that truly serve people. My goal is to bring together my background in entrepreneurship, market research, and community building to craft solutions that solve real problems and create meaningful value. Long term, I see product management as the foundation for leading teams, shaping vision, and launching ventures that make an impact at scale."
+    "text": "Background\nI’m Keppner—a builder, connector, and adventurer at heart. Whether it’s organizing community races like the Broke Boys Half, launching entrepreneurial ventures from surfacing pickleball courts to strategy consulting projects, or diving into global markets through my work with Mangrove Collective, I thrive on creating experiences that bring people together and make a lasting impact. Beyond business, you’ll find me outdoors—running, climbing, skiing, or documenting the world through photography. I believe success comes from curiosity, grit, and prioritizing people over numbers, and I’m driven to use my skills in strategy, business, and storytelling to build ventures that matter."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "\nKeppner Barker\n",
+    "section": "Education",
+    "text": "Education\n\nBS Strategic Management, Brigham Young University (2027)\nRelevant Coursework: IS 110, IS 201, IS 303, STAT 121, ECON 110, MKTG 201, ENT 300, FIN 201\nAcademic Achievements: 3rd Place, Sorensen’s Center Case Study for The Swig Company, LLC."
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "\nKeppner Barker\n",
+    "section": "Experience",
+    "text": "Experience\n\nBusiness Strategy Intern - Mangrove Collective\nMay 2025 - Present\n\nAnalyzing customer demand trends across 5 global markets for expansion based on size, growth, and brand alignment.\nEvaluating sales channels (DTC, retail, design partnerships) to identify most scalable and brand-aligned entry points.\nValidating marketing programs, generating marketing copy and creative tailoring branding to target global markets.\n\n\n\nStrategy and Marketing Intern - ROSE Fitness\nAug 2023 - Jan 2024\n\nConducted comprehensive market research, including weekly focus groups and additional user data analysis, providing actionable insights leading to over a 40% increase in app downloads.\nAnalyzed market research data, including focus group findings. Presented actionable recommendations to CEO.\nCollaborated with the CEO to design and execute targeted social media campaigns based on market research insights, resulting in increased engagement and a 200% growth in followers within 4 months."
+  },
+  {
+    "objectID": "about.html#skills-interests",
+    "href": "about.html#skills-interests",
+    "title": "\nKeppner Barker\n",
+    "section": "Skills & Interests",
+    "text": "Skills & Interests\nTechnical Skills - Programming languages (Python, SQL) - Analytics tools (Tableau, Google Analytics) - Business & Strategy (Market sizing, channel strategy, TAM analysis, international market entry) - Marketing & Research (Focus groups, survey design, social media growth strategies, brand storytelling, customer insights) - Event Management (Race/event planning, budgeting, logistics, sponsorship)\nSoft Skills - Communication and presentation - Strategic thinking and problem-solving - Leadership (Hiring and managing teams, organizing large-scale events, teaching and mentoring)\nInterests\nI’m passionate about the outdoors—running, climbing, skiing, and backpacking are some of my favorite ways to recharge. I also enjoy photography and filmmaking, both as creative outlets and as tools for storytelling. Travel and adventure fuel my curiosity, while community events and shared experiences keep me grounded in what matters most: people."
+  },
+  {
+    "objectID": "about.html#whats-next",
+    "href": "about.html#whats-next",
+    "title": "\nKeppner Barker\n",
+    "section": "What’s Next",
+    "text": "What’s Next\nI’m pursuing opportunities in product management, where I can combine strategy, creativity, and execution to build products that truly serve people. My goal is to bring together my background in entrepreneurship, market research, and community building to craft solutions that solve real problems and create meaningful value. Long term, I see product management as the foundation for leading teams, shaping vision, and launching ventures that make an impact at scale."
   },
   {
     "objectID": "index.html",
