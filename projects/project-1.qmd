@@ -4,7 +4,7 @@ date: "2024-09-15"
 categories: [GitHub, Vercel, Claude Code]
 ---
 
-## Overview
+## DormChef
 
 DormChef is a simple, social meal-planning app designed specifically for college students living in dorms with limited kitchen space. The app helps students discover, share, and organize recipes that work with minimal equipment and tight budgets.
 

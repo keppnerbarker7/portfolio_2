@@ -4,7 +4,7 @@ date: "2025-10-01"
 categories: [GitHub, Next.js, Supabase, Stripe]
 ---
 
-## Overview
+## Tool Locker
 
 Tool Locker is a self-service tool rental platform that lets people rent high-quality tools (pressure washers, tillers, aerators, tile saws, etc.) without staff or store lines. Users book in the app, receive a time-bound access code, pick up from a secured locker/storage unit, and return when done.
 
