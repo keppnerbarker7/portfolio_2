@@ -127,7 +127,7 @@
   align-items: flex-start;
   justify-content: center;
   padding: 4rem 0rem 0rem 4rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0;
   background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
   z-index: 10;
 }
@@ -324,7 +324,7 @@ main {
 /* Featured Projects Section Container */
 .featured-projects-section {
   background: linear-gradient(180deg, var(--bg-light) 0%, var(--bg-subtle) 100%);
-  padding: 2rem 2rem 6rem;
+  padding: 0.5rem 2rem 6rem;
   margin-top: 0;
   position: relative;
 }
