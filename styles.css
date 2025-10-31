@@ -1,5 +1,10 @@
 /* Custom styles for portfolio website */
 
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
 /* Modern Color Palette - Complementing Navy Suit & Beige Tie */
 :root {
   --primary-navy: #1C2A44;

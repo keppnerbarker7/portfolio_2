@@ -23,7 +23,7 @@ title: ""
 <h1 class="hero-subtitle">Product Managment Portfolio</h1>
 <p class="hero-description">Building innovative solutions that solve real problems. From meal planning apps for college students to self-service tool rental platforms, I turn ideas into products people love.</p>
 <a href="about.qmd" class="btn-primary-custom">Learn More About Me</a>
-<a href="projects/project-1.qmd" class="btn-secondary-custom">View My Work</a>
+<a href="#featured-projects" class="btn-secondary-custom">View My Work</a>
 :::
 
 ::: {.hero-image}
@@ -34,7 +34,7 @@ title: ""
 
 :::
 
-::: {.featured-projects-section}
+::: {#featured-projects .featured-projects-section}
 
 ## Featured Projects
 
