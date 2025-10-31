@@ -28,15 +28,12 @@
   top: 120px;
   right: 2rem;
   width: 250px;
-  padding-left: 2rem;
+  padding-left: 1rem;
   padding-right: 1rem;
-  border-left: 3px solid var(--accent-gold);
-  background: rgba(249, 249, 247, 0.98);
-  backdrop-filter: blur(10px);
-  border-radius: 12px;
+  border-left: none;
+  background: transparent;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-  box-shadow: 0 4px 16px rgba(28, 42, 68, 0.08);
   z-index: 50;
 }
 
@@ -74,12 +71,6 @@
 #TOC .active {
   color: var(--accent-blue);
   font-weight: 600;
-  border-left: 3px solid var(--accent-blue);
-  padding-left: 0.75rem;
-  background: rgba(93, 173, 236, 0.1);
-  margin-left: -0.5rem;
-  padding-right: 0.5rem;
-  border-radius: 4px;
 }
 
 /* Center and improve navigation */
