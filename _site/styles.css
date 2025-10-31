@@ -755,7 +755,7 @@ img {
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 15%;
   border: 5px solid white;
   box-shadow: 0 16px 48px rgba(28, 42, 68, 0.2);
   margin-bottom: 2rem;
