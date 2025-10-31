@@ -27,6 +27,13 @@ jobs:
       - name: Add .nojekyll file
         run: touch _site/.nojekyll
 
+      - name: List _site contents
+        run: |
+          echo "=== _site directory structure ==="
+          ls -laR _site/
+          echo "=== Checking projects directory ==="
+          ls -la _site/projects/ || echo "projects directory not found"
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
