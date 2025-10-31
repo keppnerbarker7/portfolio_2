@@ -72,11 +72,11 @@
 }
 
 #TOC .active {
-  color: var(--accent-gold);
+  color: var(--accent-blue);
   font-weight: 600;
-  border-left: 3px solid var(--accent-gold);
+  border-left: 3px solid var(--accent-blue);
   padding-left: 0.75rem;
-  background: rgba(189, 166, 114, 0.08);
+  background: rgba(93, 173, 236, 0.1);
   margin-left: -0.5rem;
   padding-right: 0.5rem;
   border-radius: 4px;
@@ -239,8 +239,8 @@
 .btn-primary-custom {
   display: inline-block;
   padding: 1rem 2.2rem;
-  background: var(--accent-beige);
-  color: var(--primary-navy) !important;
+  background: var(--accent-blue);
+  color: white !important;
   font-weight: 600;
   font-size: 1.05rem;
   border-radius: 8px;
@@ -248,41 +248,41 @@
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   margin-right: 1rem;
   margin-bottom: 0.5rem;
-  box-shadow: 0 8px 16px rgba(216, 199, 164, 0.3);
+  box-shadow: 0 8px 16px rgba(93, 173, 236, 0.3);
   border: none;
   white-space: nowrap;
 }
 
 .btn-primary-custom:hover {
-  background: var(--accent-beige-hover);
+  background: #4A9BD8;
   transform: translateY(-3px);
-  box-shadow: 0 12px 24px rgba(194, 180, 154, 0.4);
+  box-shadow: 0 12px 24px rgba(93, 173, 236, 0.4);
   text-decoration: none;
-  color: var(--primary-navy) !important;
+  color: white !important;
 }
 
 .btn-secondary-custom {
   display: inline-block;
   padding: 1rem 2.2rem;
-  background: var(--accent-blue);
+  background: var(--primary-navy);
   color: white !important;
   font-weight: 600;
   font-size: 1.05rem;
-  border: 2px solid var(--accent-blue);
+  border: 2px solid var(--primary-navy);
   border-radius: 8px;
   text-decoration: none;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 0.5rem;
   white-space: nowrap;
-  box-shadow: 0 8px 16px rgba(93, 173, 236, 0.3);
+  box-shadow: 0 8px 16px rgba(28, 42, 68, 0.25);
 }
 
 .btn-secondary-custom:hover {
-  background: #4A9BD8;
-  border-color: #4A9BD8;
+  background: var(--secondary-navy);
+  border-color: var(--secondary-navy);
   color: white !important;
   transform: translateY(-3px);
-  box-shadow: 0 12px 24px rgba(93, 173, 236, 0.4);
+  box-shadow: 0 12px 24px rgba(28, 42, 68, 0.35);
   text-decoration: none;
 }
 
