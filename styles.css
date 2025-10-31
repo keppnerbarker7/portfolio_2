@@ -1,5 +1,17 @@
 /* Custom styles for portfolio website */
 
+/* Modern Color Palette */
+:root {
+  --primary-navy: #1a2332;
+  --secondary-navy: #2c3e50;
+  --accent-coral: #e74c3c;
+  --accent-coral-hover: #c0392b;
+  --text-dark: #2c3e50;
+  --text-light: #6c757d;
+  --bg-light: #ffffff;
+  --bg-subtle: #f8f9fa;
+}
+
 /* Improve overall layout and spacing */
 .quarto-container {
   max-width: 1200px;
@@ -10,6 +22,8 @@
 /* Center and improve navigation */
 .navbar {
   padding: 1rem 0;
+  background: var(--bg-light) !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
 .navbar-nav {
@@ -20,72 +34,172 @@
 .navbar-brand {
   font-weight: 600;
   font-size: 1.25rem;
+  color: var(--primary-navy) !important;
 }
 
-/* Improve main content spacing */
+/* Hide default title block */
 .quarto-title-banner {
-  padding: 2rem 0;
-  text-align: center;
+  display: none;
 }
 
-.quarto-title-block .quarto-title {
-  margin-bottom: 1rem;
-  text-align: center;
+.quarto-title-block {
+  display: none;
 }
 
-.quarto-title-block .quarto-title h1 {
-  text-align: center;
+/* Modern Hero Section */
+.hero-section {
+  position: relative;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  padding: 4rem 2rem;
+  margin-bottom: 4rem;
+  background: var(--bg-light);
 }
 
-/* Center the subtitle and other title elements */
-.quarto-title-block .description {
-  text-align: center;
+/* Vertical Social Sidebar */
+.social-sidebar {
+  position: fixed;
+  left: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  z-index: 100;
 }
 
-.quarto-title-block .quarto-categories {
-  justify-content: center;
+.social-sidebar a {
+  font-size: 1.5rem;
+  color: var(--text-light);
+  transition: all 0.3s ease;
+  text-decoration: none;
 }
 
-/* Hero banner styling */
-.hero-banner {
-  text-align: center;
-  padding: 3rem 2rem;
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  border-radius: 12px;
-  margin-bottom: 3rem;
-  border: 1px solid #dee2e6;
+.social-sidebar a:hover {
+  color: var(--accent-coral);
+  transform: scale(1.1);
+  text-decoration: none;
 }
 
-.hero-banner h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: #2c3e50;
+/* Hero Content Layout */
+.hero-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.hero-text {
+  padding-right: 2rem;
+}
+
+.hero-intro {
+  font-size: 1.2rem;
+  color: var(--text-light);
   margin-bottom: 0.5rem;
+  font-weight: 400;
 }
 
-.hero-banner h2 {
-  font-size: 1.25rem;
-  font-weight: 400;
-  color: #6c757d;
-  margin-bottom: 2rem;
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: var(--primary-navy);
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
   margin-top: 0;
 }
 
-.hero-banner .btn {
-  margin: 0.25rem;
+.hero-subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--secondary-navy);
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.hero-description {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: var(--text-light);
+  margin-bottom: 2rem;
+  max-width: 500px;
+}
+
+/* Modern CTA Buttons */
+.btn-primary-custom {
+  display: inline-block;
+  padding: 0.9rem 2rem;
+  background: var(--accent-coral);
+  color: white !important;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 6px rgba(231, 76, 60, 0.2);
+}
+
+.btn-primary-custom:hover {
+  background: var(--accent-coral-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(231, 76, 60, 0.3);
+  text-decoration: none;
+  color: white !important;
+}
+
+.btn-secondary-custom {
+  display: inline-block;
+  padding: 0.9rem 2rem;
+  background: transparent;
+  color: var(--secondary-navy) !important;
+  font-weight: 600;
+  border: 2px solid var(--secondary-navy);
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.btn-secondary-custom:hover {
+  background: var(--secondary-navy);
+  color: white !important;
+  transform: translateY(-2px);
   text-decoration: none;
 }
 
-.hero-banner .btn:hover {
-  text-decoration: none;
-  transform: translateY(-1px);
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+/* Hero Image */
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 }
 
 /* Better spacing for main content */
 main {
   padding: 2rem 0;
   line-height: 1.6;
+}
+
+/* Featured Projects Section */
+h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--primary-navy);
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
 /* Improve project grid layout */
@@ -95,16 +209,35 @@ main {
 }
 
 .g-col-12.g-col-md-6 {
-  padding: 1.5rem;
+  padding: 2rem;
   border: 1px solid #e9ecef;
-  border-radius: 8px;
-  background: #f8f9fa;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 12px;
+  background: var(--bg-light);
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
 
 .g-col-12.g-col-md-6:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+  border-color: var(--accent-coral);
+}
+
+.g-col-12.g-col-md-6 h3 a {
+  color: var(--primary-navy);
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.g-col-12.g-col-md-6 h3 a:hover {
+  color: var(--accent-coral);
+  text-decoration: none;
+}
+
+.g-col-12.g-col-md-6 p {
+  color: var(--text-light);
+  line-height: 1.6;
 }
 
 /* Improve typography */
@@ -113,16 +246,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
 }
 
-h2 {
-  margin-top: 2rem;
-  margin-bottom: 1.5rem;
-  color: #2c3e50;
-}
-
 h3 {
-  margin-top: 1.5rem;
+  margin-top: 0;
   margin-bottom: 1rem;
-  color: #34495e;
+  color: var(--primary-navy);
 }
 
 /* Better paragraph spacing */
@@ -166,21 +293,102 @@ li {
 }
 
 /* Responsive improvements */
+@media (max-width: 992px) {
+  .hero-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .hero-text {
+    padding-right: 0;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem;
+  }
+
+  .hero-description {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero-image {
+    order: -1;
+  }
+
+  .hero-image img {
+    max-width: 350px;
+  }
+
+  .social-sidebar {
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: none;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+}
+
 @media (max-width: 768px) {
   .quarto-container {
     padding: 0 15px;
   }
-  
+
+  .hero-section {
+    min-height: auto;
+    padding: 2rem 1rem;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .hero-intro {
+    font-size: 1rem;
+  }
+
+  .hero-description {
+    font-size: 1rem;
+  }
+
+  .btn-primary-custom,
+  .btn-secondary-custom {
+    display: block;
+    width: 100%;
+    margin-right: 0;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
   .grid {
     gap: 1rem;
   }
-  
+
   .g-col-12.g-col-md-6 {
-    padding: 1rem;
+    padding: 1.5rem;
   }
-  
+
   main {
     padding: 1rem 0;
+  }
+
+  .social-sidebar a {
+    font-size: 1.3rem;
   }
 }
 

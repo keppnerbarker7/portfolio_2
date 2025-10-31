@@ -1,19 +1,37 @@
 ---
-title: "Welcome to My Product Management Portfolio"
+title: ""
 ---
 
-::: {.hero-banner .text-center}
+::: {.hero-section}
 
-<img src="images/India_2025-28.png" alt="add photo to /images" class="rounded-circle mb-3" width="160">
-
-<h1>Keppner Barker</h1>
-
-<a href="https://linkedin.com/in/keppnerbarker" class="btn btn-outline-primary btn-sm" target="_blank">
-  <i class="fab fa-linkedin"></i> LinkedIn
+::: {.social-sidebar}
+<a href="https://linkedin.com/in/keppnerbarker" target="_blank" aria-label="LinkedIn">
+  <i class="fab fa-linkedin"></i>
 </a>
-<a href="https://github.com/keppnerbarker7" class="btn btn-outline-primary btn-sm" target="_blank">
-  <i class="fab fa-github"></i> GitHub
+<a href="https://github.com/keppnerbarker7" target="_blank" aria-label="GitHub">
+  <i class="fab fa-github"></i>
 </a>
+<a href="https://instagram.com/keppnerbarker" target="_blank" aria-label="Instagram">
+  <i class="fab fa-instagram"></i>
+</a>
+:::
+
+::: {.hero-content}
+
+::: {.hero-text}
+<p class="hero-intro">Hi, I'm</p>
+<h1 class="hero-title">Keppner Barker</h1>
+<h2 class="hero-subtitle">Product Manager & Developer</h2>
+<p class="hero-description">Building innovative solutions that solve real problems. From meal planning apps for college students to self-service tool rental platforms, I turn ideas into products people love.</p>
+<a href="about.qmd" class="btn-primary-custom">Learn More About Me</a>
+<a href="projects/project-1.qmd" class="btn-secondary-custom">View My Work</a>
+:::
+
+::: {.hero-image}
+<img src="images/India_2025-28.png" alt="Keppner Barker">
+:::
+
+:::
 
 :::
 
