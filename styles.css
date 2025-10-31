@@ -1,17 +1,18 @@
 /* Custom styles for portfolio website */
 
-/* Modern Color Palette */
+/* Modern Color Palette - Complementing Navy Suit & Beige Tie */
 :root {
-  --primary-navy: #0a1929;
-  --secondary-navy: #1e3a5f;
-  --accent-coral: #ff6b6b;
-  --accent-coral-hover: #ee5a52;
-  --accent-blue: #4dabf7;
-  --text-dark: #1e293b;
-  --text-light: #64748b;
-  --bg-light: #ffffff;
-  --bg-subtle: #f8fafc;
-  --border-light: #e2e8f0;
+  --primary-navy: #1C2A44;
+  --secondary-navy: #2D3E5F;
+  --accent-beige: #D8C7A4;
+  --accent-beige-hover: #C2B49A;
+  --accent-blue: #5DADEC;
+  --accent-gold: #BDA672;
+  --text-dark: #1C2A44;
+  --text-light: #6B7280;
+  --bg-light: #F9F9F7;
+  --bg-subtle: #FAF8F5;
+  --border-light: #E5DFD6;
 }
 
 /* Improve overall layout and spacing */
@@ -54,12 +55,12 @@
 }
 
 #TOC a:hover {
-  color: var(--accent-coral);
+  color: var(--accent-gold);
   padding-left: 0.5rem;
 }
 
 #TOC .active {
-  color: var(--accent-coral);
+  color: var(--accent-gold);
   font-weight: 600;
 }
 
@@ -91,8 +92,8 @@
 }
 
 .navbar-nav .nav-link:hover {
-  color: var(--accent-coral) !important;
-  background: rgba(255, 107, 107, 0.08);
+  color: var(--accent-beige-hover) !important;
+  background: rgba(216, 199, 164, 0.15);
 }
 
 .navbar-brand {
@@ -152,8 +153,8 @@
 }
 
 .social-sidebar a:hover {
-  color: var(--accent-coral);
-  background: rgba(255, 107, 107, 0.1);
+  color: var(--accent-beige-hover);
+  background: rgba(216, 199, 164, 0.15);
   transform: translateX(5px);
   text-decoration: none;
 }
@@ -220,8 +221,8 @@
 .btn-primary-custom {
   display: inline-block;
   padding: 1rem 2.2rem;
-  background: var(--accent-coral);
-  color: white !important;
+  background: var(--accent-beige);
+  color: var(--primary-navy) !important;
   font-weight: 600;
   font-size: 1.05rem;
   border-radius: 8px;
@@ -229,17 +230,17 @@
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   margin-right: 1rem;
   margin-bottom: 0.5rem;
-  box-shadow: 0 8px 16px rgba(255, 107, 107, 0.25);
+  box-shadow: 0 8px 16px rgba(216, 199, 164, 0.3);
   border: none;
   white-space: nowrap;
 }
 
 .btn-primary-custom:hover {
-  background: var(--accent-coral-hover);
+  background: var(--accent-beige-hover);
   transform: translateY(-3px);
-  box-shadow: 0 12px 24px rgba(255, 107, 107, 0.35);
+  box-shadow: 0 12px 24px rgba(194, 180, 154, 0.4);
   text-decoration: none;
-  color: white !important;
+  color: var(--primary-navy) !important;
 }
 
 .btn-secondary-custom {
@@ -281,7 +282,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, rgba(255, 107, 107, 0.15) 0%, rgba(77, 171, 247, 0.15) 100%);
+  background: linear-gradient(135deg, rgba(216, 199, 164, 0.2) 0%, rgba(93, 173, 236, 0.15) 100%);
   border-radius: 24px;
   z-index: 1;
   top: 30px;
@@ -347,7 +348,7 @@ h2 {
   left: 0;
   right: 0;
   height: 4px;
-  background: linear-gradient(90deg, var(--accent-coral) 0%, var(--accent-blue) 100%);
+  background: linear-gradient(90deg, var(--accent-beige) 0%, var(--accent-blue) 100%);
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 0.4s ease;
@@ -360,7 +361,7 @@ h2 {
 .g-col-12.g-col-md-6:hover {
   transform: translateY(-8px);
   box-shadow: 0 16px 40px rgba(0,0,0,0.12);
-  border-color: var(--accent-coral);
+  border-color: var(--accent-gold);
 }
 
 .g-col-12.g-col-md-6 h3 a {
@@ -372,7 +373,7 @@ h2 {
 }
 
 .g-col-12.g-col-md-6 h3 a:hover {
-  color: var(--accent-coral);
+  color: var(--accent-beige-hover);
   text-decoration: none;
 }
 
