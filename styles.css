@@ -181,6 +181,7 @@
   margin-bottom: 0.8rem;
   font-weight: 500;
   letter-spacing: 0.5px;
+  text-align: left;
 }
 
 .hero-title {
@@ -191,6 +192,7 @@
   margin-bottom: 0.8rem;
   margin-top: 0;
   letter-spacing: -2px;
+  text-align: left;
 }
 
 .hero-subtitle {
@@ -200,6 +202,7 @@
   margin-bottom: 1.5rem;
   margin-top: 0.8rem;
   line-height: 1.2;
+  text-align: left;
 }
 
 .hero-description {
@@ -208,6 +211,7 @@
   color: var(--text-light);
   margin-bottom: 2rem;
   max-width: 580px;
+  text-align: left;
 }
 
 /* Modern CTA Buttons */
