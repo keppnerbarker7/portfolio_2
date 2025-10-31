@@ -23,23 +23,34 @@
 
 /* Push TOC sidebar more to the right */
 #TOC {
-  position: sticky;
-  top: 100px;
-  right: 0;
+  position: fixed;
+  top: 120px;
+  right: 2rem;
+  width: 250px;
   padding-left: 2rem;
-  margin-right: -2rem;
+  padding-right: 1rem;
   border-left: 3px solid var(--border-light);
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  z-index: 50;
 }
 
 #TOC ul {
   padding-left: 1.5rem;
+  margin: 0;
 }
 
 #TOC a {
   color: var(--text-light);
   text-decoration: none;
   transition: all 0.2s ease;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
+  display: block;
+  padding: 0.4rem 0;
 }
 
 #TOC a:hover {
@@ -109,6 +120,7 @@
   padding: 8rem 4rem;
   margin-bottom: 6rem;
   background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  z-index: 10;
 }
 
 /* Vertical Social Sidebar */
@@ -249,6 +261,7 @@
   align-items: center;
   position: relative;
   width: 100%;
+  z-index: 20;
 }
 
 .hero-image::before {
@@ -256,9 +269,9 @@
   position: absolute;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, rgba(255, 107, 107, 0.1) 0%, rgba(77, 171, 247, 0.1) 100%);
+  background: linear-gradient(135deg, rgba(255, 107, 107, 0.15) 0%, rgba(77, 171, 247, 0.15) 100%);
   border-radius: 24px;
-  z-index: -1;
+  z-index: 1;
   top: 30px;
   left: 30px;
 }
@@ -269,8 +282,10 @@
   height: auto;
   min-width: 500px;
   border-radius: 24px;
-  box-shadow: 0 24px 60px rgba(0,0,0,0.15);
+  box-shadow: 0 30px 80px rgba(0,0,0,0.2);
   transition: transform 0.3s ease;
+  position: relative;
+  z-index: 2;
 }
 
 .hero-image img:hover {
@@ -281,6 +296,9 @@
 main {
   padding: 2rem 0;
   line-height: 1.6;
+  position: relative;
+  z-index: 1;
+  background: var(--bg-light);
 }
 
 /* Featured Projects Section */
@@ -478,7 +496,10 @@ li {
   }
 
   #TOC {
-    margin-right: 0;
+    position: relative;
+    right: auto;
+    width: 100%;
+    margin: 2rem 0;
   }
 }
 
