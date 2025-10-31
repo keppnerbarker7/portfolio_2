@@ -314,7 +314,7 @@
 
 /* Better spacing for main content */
 main {
-  padding: 4rem 0 2rem 0;
+  padding: 2rem 0 2rem 0;
   line-height: 1.6;
   position: relative;
   z-index: 1;
@@ -326,7 +326,8 @@ h2 {
   font-size: 3rem;
   font-weight: 800;
   color: var(--primary-navy);
-  margin-bottom: 3rem;
+  margin-top: 0;
+  margin-bottom: 2.5rem;
   text-align: center;
   letter-spacing: -0.5px;
 }
