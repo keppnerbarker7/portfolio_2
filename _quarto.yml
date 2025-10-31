@@ -20,6 +20,8 @@ website:
         menu:
           - href: projects/project-1.qmd
             text: DormChef
+          - href: projects/project-7.qmd
+            text: Tool Locker
           #- href: projects/project-2.qmd
           #  text: Business Case Presentation
           #- href: projects/project-3.qmd
