@@ -274,7 +274,7 @@ html {
   border-color: var(--secondary-navy);
   color: white !important;
   transform: translateY(-3px);
-  box-shadow: 0 12px 24px rgba(28, 42, 68, 0.35);11
+  box-shadow: 0 12px 24px rgba(28, 42, 68, 0.35);
   text-decoration: none;
 }
 
@@ -755,6 +755,7 @@ img {
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
+  object-position: center top;
   border: 5px solid white;
   box-shadow: 0 16px 48px rgba(28, 42, 68, 0.2);
   margin-bottom: 2rem;
