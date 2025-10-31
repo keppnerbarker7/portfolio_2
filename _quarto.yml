@@ -5,9 +5,11 @@ project:
     - "*.qmd"
     - "!NEW_STRUCTURE.md"
     - "!IMPLEMENTATION_SUMMARY.md"
+  resources:
+    - ".nojekyll"
 
 website:
-  title: ""
+  title: "Keppner Barker Portfolio"
   favicon: images/favicon.svg
   site-url: https://keppnerbarker7.github.io/portfolio_2
   navbar:
