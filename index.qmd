@@ -19,7 +19,6 @@ title: ""
 ::: {.hero-content}
 
 ::: {.hero-text}
-##<p class="hero-intro">Hi, I'm</p>
 <h1 class="hero-title">Keppner Barker</h1>
 <h2 class="hero-subtitle">Product Managment Portfolio</h2>
 <p class="hero-description">Building innovative solutions that solve real problems. From meal planning apps for college students to self-service tool rental platforms, I turn ideas into products people love.</p>
